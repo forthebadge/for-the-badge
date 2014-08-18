@@ -1,0 +1,45 @@
+// color vars
+
+$orange: E46C17;
+
+// normalize
+
+@import "normalize";
+
+// bourbon.io
+
+@import "bourbon/bourbon";
+
+// box sizing
+
+*,
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+// globals
+
+body {
+  font-family: 'Brandon Grotesque';
+  font-weight: normal;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+// headings
+
+
+
+// partials
