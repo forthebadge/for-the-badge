@@ -1,0 +1,31 @@
+header {
+  height: 420px;
+  padding: 80px 0;
+  background-color: $orange;
+  text-align: center;
+}
+
+.mark,
+.logo,
+.tagline {
+  display: block;
+  margin: 0 auto;
+  @include hide-text;
+}
+
+.mark {
+  @include size(44px 32px);
+  margin-bottom: 80px;
+  background: url('images/mark.svg') center center no-repeat;
+}
+
+.logo {
+  @include size(619px 47px);
+  margin-bottom: 25px;
+  background: url('images/logo.svg') center center no-repeat;
+}
+
+.tagline {
+  @include size(453px 40px);
+  background: url('images/tagline.svg') center center no-repeat;
+}

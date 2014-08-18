@@ -1,6 +1,6 @@
 // color vars
 
-$orange: E46C17;
+$orange: #E46C17;
 
 // normalize
 
@@ -43,3 +43,6 @@ em {
 
 
 // partials
+
+@import "layout";
+@import "header";
