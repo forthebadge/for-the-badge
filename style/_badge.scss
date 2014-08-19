@@ -1,0 +1,55 @@
+.badge {
+  height: 320px;
+  padding-top: 100px;
+  background: #26C7D5;
+  
+  img {
+    display: block;
+    margin: 0 auto 40px auto;
+  }
+}
+
+.copy {
+  @include transition(all 0.25s);
+  overflow: hidden;
+  position: relative;
+  display: block;
+  @include size(200px 50px);
+  padding-top: 14px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1pt;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  
+  &:before,
+  &:after {
+    @include transition(all 0.25s);
+    display: block;
+    position: absolute;
+    left: 0;
+    @include size(100%);
+    padding-top: 14px;
+  }
+  
+  &:before {
+    content: "Copy to Clipboard";
+    top: 100%;
+  }
+  
+  &:after {
+    content: "";
+    top: 0;
+    background: url('images/icon-clipboard.svg') center center no-repeat;
+  }
+  
+  &:hover {
+    &:before,
+    &:after {
+      @include transform(translateY(-100%));
+    }
+  }
+}
