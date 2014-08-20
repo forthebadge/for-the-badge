@@ -92,7 +92,7 @@
     }
   }
   
-  &:hover {
+  &.zeroclipboard-is-hover {
     &:before,
     &:after {
       @include transform(translateY(-100%));
