@@ -1,11 +1,38 @@
 .badge {
   height: 320px;
   padding-top: 100px;
-  background: #26C7D5;
   
   img {
     display: block;
     margin: 0 auto 40px auto;
+  }
+  
+  &:nth-child(1) {
+    background: #F4F4F0;
+  }
+  
+  &:nth-child(2) {
+    background: #26C7D5;
+  }
+  
+  &:nth-child(3) {
+    background: #44A4B9;
+  }
+  
+  &:nth-child(4) {
+    background: #F4F4F0;
+  }
+  
+  &:nth-child(5) {
+    background: #E46C17;
+  }
+  
+  &:nth-child(6) {
+    background: #263C4A;
+  }
+  
+  &:nth-child(7) {
+    background: #EA004C;
   }
 }
 
@@ -43,7 +70,26 @@
   &:after {
     content: "";
     top: 0;
-    background: url('images/icon-clipboard.svg') center center no-repeat;
+  }
+  
+  &.white {
+    &:before {
+      color: #F4F4F0;
+    }
+  
+    &:after {
+      background: url('images/icon-clipboard-white.svg') center center no-repeat;
+    }
+  }
+    
+  &.blue {
+    &:before {
+      color: #26C7D5;
+    }
+  
+    &:after {
+      background: url('images/icon-clipboard-blue.svg') center center no-repeat;
+    }
   }
   
   &:hover {
