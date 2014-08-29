@@ -1,6 +1,10 @@
 .menu {
   height: 100px;
   background-color: white;
+  
+  > .container {
+    position: relative;
+  }
 }
 
 .search {
