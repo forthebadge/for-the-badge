@@ -1,0 +1,26 @@
+{
+  "name": "forthebadge",
+  "version": "1.0.0",
+  "description": "For the sake of badges",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BraveUX/forthebadge"
+  },
+  "author": "@Brave_UX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BraveUX/forthebadge/issues"
+  },
+  "homepage": "https://github.com/BraveUX/forthebadge",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-svgmin": "^0.4.6",
+    "gulp-uglify": "^1.0.0"
+  }
+}
