@@ -16,7 +16,7 @@ gulp.task('scripts', function() {
     .pipe(rename(suffix))
     .pipe(gulp.dest('./public'));
 });
-
+  
 // css
 gulp.task('css', function() {
   gulp.src('./public/style.css')
