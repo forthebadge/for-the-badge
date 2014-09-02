@@ -36,9 +36,12 @@ gulp.task('html', function() {
 gulp.task('svg', function() {
   gulp.src('./public/images/*.svg')
     .pipe(svgmin())
-    .pipe(rename(suffix))
-    .pipe(gulp.dest('./public/images'))
-})
+    .pipe(gulp.dest('./public/images'));
+  
+  gulp.src('./public/badges/*.svg')
+    .pipe(svgmin())
+    .pipe(gulp.dest('./public/badges'));
+});
 
 gulp.task('build', ['scripts', 'css', 'html', 'svg']);
 
