@@ -7,32 +7,44 @@
     margin: 0 auto 40px auto;
   }
   
-  &:nth-child(1) {
-    background: #F4F4F0;
+  &:first-child {
+    background-color: #F4F4F0;
   }
   
   &:nth-child(2) {
-    background: #26C7D5;
+    background-color: #C1D72E;
   }
   
   &:nth-child(3) {
-    background: #44A4B9;
+    background-color: #393D43;
   }
   
   &:nth-child(4) {
-    background: #F4F4F0;
+    background-color: #F4F4F0;
   }
   
   &:nth-child(5) {
-    background: #E46C17;
+    background-color: #FF7B00;
   }
   
   &:nth-child(6) {
-    background: #263C4A;
+    background-color: #263C4A;
   }
   
   &:nth-child(7) {
-    background: #EA004C;
+    background-color: #F4F4F0;
+  }
+  
+  &:nth-child(8) {
+    background-color: #26C7D5;
+  }
+  
+  &:nth-child(9) {
+    background-color: #EA004C;
+  }
+
+  &:last-child {
+    background-color: #F4F4F0;
   }
 }
 
