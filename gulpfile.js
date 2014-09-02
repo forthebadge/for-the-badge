@@ -13,15 +13,15 @@ gulp.task('scripts', function() {
   gulp.src('./public/scripts/*.js')
     .pipe(uglify())
     .pipe(concat('index.js'))
-    .pipe(rename(suffix))
+    // .pipe(rename(suffix))
     .pipe(gulp.dest('./public'));
 });
-  
+
 // css
 gulp.task('css', function() {
   gulp.src('./public/style.css')
     .pipe(cssmin())
-    .pipe(rename(suffix))
+    // .pipe(rename(suffix))
     .pipe(gulp.dest('./public'))
 });
 
@@ -29,7 +29,7 @@ gulp.task('css', function() {
 gulp.task('html', function() {
   gulp.src('./public/index.html')
     .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
-    .pipe(rename(suffix))
+    // .pipe(rename(suffix))
     .pipe(gulp.dest('./public'))
 });
 
