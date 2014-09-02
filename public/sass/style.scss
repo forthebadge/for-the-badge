@@ -18,10 +18,10 @@ $orange: #E46C17;
 // globals
 
 // vars
-$imagePath: "public/images/";
+$imagePath: "./images/";
 
 body {
-  font-family: 'Brandon Grotesque';
+  font-family: 'Brandon Grotesque', Helvetica;
   font-weight: normal;
   font-size: 14px;
 }
