@@ -3,12 +3,8 @@
 $blue: #00C7FF;
 $orange: #E46C17;
 
-// normalize
 
 @import "normalize";
-
-// bourbon.io
-
 @import "bourbon/bourbon";
 
 // box sizing
@@ -20,6 +16,9 @@ $orange: #E46C17;
 }
 
 // globals
+
+// vars
+$imagePath: "public/images/";
 
 body {
   font-family: 'Brandon Grotesque';

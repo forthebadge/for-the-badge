@@ -90,7 +90,7 @@
     }
   
     &:after {
-      background: url('public/images/icon-clipboard-white.svg') center center no-repeat;
+      background: url($imagePath + 'icon-clipboard-white.svg') center center no-repeat;
     }
   }
     
@@ -100,7 +100,7 @@
     }
   
     &:after {
-      background: url('public/images/icon-clipboard-blue.svg') center center no-repeat;
+      background: url($imagePath + 'icon-clipboard-blue.svg') center center no-repeat;
     }
   }
   

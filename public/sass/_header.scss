@@ -21,19 +21,19 @@ header {
   left: 50%;
   @include size(77px 89px);
   margin-left: -38px;
-  background: url('public/images/mark.svg') center center no-repeat;
+  background: url($imagePath + 'mark.svg') center center no-repeat;
 }
 
 .logo {
   @include size(619px 47px);
   margin-bottom: 40px;
-  background: url('public/images/logo.svg') center center no-repeat;
+  background: url($imagePath + 'logo.svg') center center no-repeat;
 }
 
 .tagline {
   @include size(475 19px);
   margin-bottom: 20px;
-  background: url('public/images/tagline.svg') center center no-repeat;
+  background: url($imagePath + 'tagline.svg') center center no-repeat;
 }
 
 .down {
@@ -50,7 +50,7 @@ header {
     left: 0;
     display: block;
     @include size(26px 13px);
-    background: url('public/images/down.svg') center center no-repeat;
+    background: url($imagePath + 'down.svg') center center no-repeat;
   }
   
   &:before {
