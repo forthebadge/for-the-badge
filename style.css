@@ -413,19 +413,19 @@ header {
   width: 77px;
   height: 89px;
   margin-left: -38px;
-  background: url("images/mark.svg") center center no-repeat; }
+  background: url("public/images/mark.svg") center center no-repeat; }
 
 .logo {
   width: 619px;
   height: 47px;
   margin-bottom: 40px;
-  background: url("images/logo.svg") center center no-repeat; }
+  background: url("public/images/logo.svg") center center no-repeat; }
 
 .tagline {
   width: 475px;
   height: 19px;
   margin-bottom: 20px;
-  background: url("images/tagline.svg") center center no-repeat; }
+  background: url("public/images/tagline.svg") center center no-repeat; }
 
 .down {
   position: relative;
@@ -443,7 +443,7 @@ header {
     display: block;
     width: 26px;
     height: 13px;
-    background: url("images/down.svg") center center no-repeat; }
+    background: url("public/images/down.svg") center center no-repeat; }
   .down:before {
     -webkit-animation: arrowBefore 1s ease-in-out infinite;
     -moz-animation: arrowBefore 1s ease-in-out infinite;
@@ -541,7 +541,7 @@ header {
   float: left;
   z-index: 1; }
   .search.expanded label {
-    background-image: url("images/icon-close.svg"); }
+    background-image: url("public/images/icon-close.svg"); }
   .search.expanded input {
     width: 750px; }
   .search label {
@@ -556,7 +556,7 @@ header {
     width: 21px;
     height: 21px;
     margin: 40px 0 39px 0;
-    background-image: url("images/icon-search.svg");
+    background-image: url("public/images/icon-search.svg");
     background-position: center center;
     background-repeat: no-repeat;
     cursor: pointer; }
@@ -678,11 +678,11 @@ header {
   .copy.white:before {
     color: #F4F4F0; }
   .copy.white:after {
-    background: url("images/icon-clipboard-white.svg") center center no-repeat; }
+    background: url("public/images/icon-clipboard-white.svg") center center no-repeat; }
   .copy.blue:before {
     color: #26C7D5; }
   .copy.blue:after {
-    background: url("images/icon-clipboard-blue.svg") center center no-repeat; }
+    background: url("public/images/icon-clipboard-blue.svg") center center no-repeat; }
   .copy.zeroclipboard-is-hover:before, .copy.zeroclipboard-is-hover:after {
     -webkit-transform: translateY(-100%);
     -moz-transform: translateY(-100%);

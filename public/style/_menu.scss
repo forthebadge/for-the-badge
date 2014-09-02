@@ -14,7 +14,7 @@
   
   &.expanded {
     label {
-      background-image: url('images/icon-close.svg');
+      background-image: url('public/images/icon-close.svg');
     }
     
     input {
@@ -29,7 +29,7 @@
     display: block;
     @include size(21px);
     margin: 40px 0 39px 0;
-    background-image: url('images/icon-search.svg');
+    background-image: url('public/images/icon-search.svg');
     background-position: center center;
     background-repeat: no-repeat;
     cursor: pointer;
