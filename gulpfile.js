@@ -33,8 +33,13 @@ gulp.task('html', function() {
     .pipe(gulp.dest('./public'))
 });
 
+gulp.task('svg', function() {
+  gulp.src('./public/images/*.svg')
+    .pipe(svgmin())
+    .pipe(rename(suffix))
+    .pipe(gulp.dest('./public/images'))
+})
 
-
-
+gulp.task('build', ['scripts', 'css', 'html', 'svg']);
 
 
