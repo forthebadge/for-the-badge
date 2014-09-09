@@ -68,7 +68,8 @@ function initSearch() {
 }
 
 function initAll() {
-  $('.all-toggle').click(function() {
+  $('.all-toggle, .view-all').click(function(e) {
+    e.preventDefault();
     $('.search-toggle').click();
   });
 }
