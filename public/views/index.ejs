@@ -63,17 +63,9 @@
             <img class="face" src="images/face.svg">
           </div>
         </section>
-        <section class="badges">
-          <% for (var i=0; i< badges.length; i++) { %>
-            <div class="badge">
-              <div class="container">
-                <img src= "<%= badges[i].badgeSrc %>" >
-                <a class="copy imageurl royal" data-clipboard-text="<%= badges[i].badgeUrl %>"></a>
-                <a class="copy markdown royal" data-clipboard-text="<%= badges[i].badgeMrkdn %>"></a>
-              </div>
-            </div>  
-          <% } %>
-        </section>
+        
+        <% include featured %>
+
       </main>
       <hr>
       <footer>

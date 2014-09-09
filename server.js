@@ -10,13 +10,13 @@ app.disable('x-powered-by');
 app.use(compress());
 app.use(express.static(public, {maxAge: 86400000} ));
 app.set('view engine', 'ejs');
-app.set('views', public);
+app.set('views', public + '/views');
 app.use(express.Router());
 
 
 
 app.get('/', function(req, res) {
-  
+
   fs.readdir('./public/badges', function(err, files) {
     if (err) res.send(500);
     
