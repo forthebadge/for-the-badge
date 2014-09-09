@@ -1,0 +1,68 @@
+.about {
+  @include transition(all 1s ease);
+  overflow: hidden;
+  height: 0;
+  background-color: #F4F4F0;
+  text-align: center;
+  color: #44484D;
+  
+  &.expanded {
+    height: 1180px;
+    padding: 80px 0 0 0;
+  }
+}
+
+.about-heading {
+  margin-bottom: 80px;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 4pt;
+  text-transform: uppercase;
+}
+
+.joke-start,
+.joke-strikethrough,
+.joke-end {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 10px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: $blue;
+}
+
+.joke-strikethrough {
+  position: relative;
+  
+  &::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 0;
+    display: block;
+    opacity: .9;
+    @include size(100% 7px);
+    background-color: #6D6E71;
+  }
+}
+
+.joke-start {
+  margin-bottom: 50px;
+}
+
+.joke-end {
+  margin-top: 50px;
+}
+
+.mission {
+  margin: 80px 0;
+  font-size: 13px;
+  line-height: 29px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #44484D;
+}
+
+.face {
+  margin-bottom: 120px;
+}

@@ -1,0 +1,52 @@
+hr {
+  @include size(100% 210px);
+  background-color: #CCCECF;
+  border: none;
+}
+
+footer {
+  position: relative;
+  @include size(100% 210px);
+  padding-top: 85px;
+  background: url() #B7B9BB center -100px no-repeat;
+  
+  a {
+    color: #393D43;
+  }
+}
+
+.view-all {
+  display: block;
+  position: absolute;
+  top: -125px;
+  left: 50%;
+  @include hide-text;
+  @include size(143px 165px);
+  margin-left: -71px;
+  background: url('images/button-view-all.svg') center center no-repeat;
+}
+
+.attr-company {
+  float: left;
+  display: block;
+  margin-top: 8px;
+  @include hide-text;
+  @include size(238px 17px);
+  background: url('images/attr-company.svg') center center no-repeat;
+}
+
+.attr-design,
+.attr-dev {
+  float: right;
+  clear: right;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2pt;
+  text-transform: uppercase;
+  color: white;
+}
+
+.attr-design {
+  margin-bottom: 10px;
+}

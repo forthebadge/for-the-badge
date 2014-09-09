@@ -1,0 +1,20 @@
+.inline-copy {
+  opacity: 1;
+  @include transition(opacity 0.5s ease);
+  display: none;
+  float: right;
+  @include size(60px 35px);
+  @include hide-text;
+  background-color: #393D43;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  
+  &.imageurl {
+    background-image: url('images/icon-imageurl-white.svg');
+  }
+  
+  &.markdown {
+    background-image: url('images/icon-markdown-white.svg');
+  }
+}

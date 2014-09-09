@@ -1,0 +1,104 @@
+header {
+  position: relative;
+  height: 420px;
+  padding: 150px 0 80px;
+  background-color: $blue;
+  text-align: center;
+}
+
+.mark,
+.logo,
+.tagline {
+  display: block;
+  margin: 0 auto;
+  @include hide-text;
+}
+
+.mark {
+  z-index: 10;
+  position: absolute;
+  bottom: -21px;
+  left: 50%;
+  @include size(77px 89px);
+  margin-left: -38px;
+  background: url('images/mark.svg') center center no-repeat;
+}
+
+.logo {
+  @include size(619px 47px);
+  margin-bottom: 40px;
+  background: url('images/logo.svg') center center no-repeat;
+}
+
+.tagline {
+  @include size(475 19px);
+  margin-bottom: 20px;
+  background: url('images/tagline.svg') center center no-repeat;
+}
+
+.down {
+  position: relative;
+  display: block;
+  @include hide-text;
+  @include size(26px 33px);
+  margin: 0 auto;
+  cursor: pointer;
+  
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    @include size(26px 13px);
+    background: url('images/down.svg') center center no-repeat;
+  }
+  
+  &::before {
+    @include animation(arrowBefore 1.0s ease-in-out infinite);
+    top: 0;
+  }
+  
+  &::after {
+    @include animation(arrowAfter 1.0s ease-in-out infinite);
+    @include animation-delay(0.125s);
+    top: 13px;
+  }
+}
+
+.contribute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  @include size(160px);
+  @include hide-text;
+  background: url('images/contribute.svg') center center no-repeat;
+}
+
+@include keyframes(arrowBefore) {
+  0% {
+    top: 3px;
+  }
+  
+  50% {
+    top: 6px;
+  }
+  
+  100% {
+    top: 3px;
+  }
+}
+
+@include keyframes(arrowAfter) {
+  0% {
+    top: 14px;
+  }
+  
+  50% {
+    top: 17px;
+  }
+
+  100% {
+    top: 14px;
+  }
+}

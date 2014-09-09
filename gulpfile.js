@@ -8,41 +8,27 @@ var rename = require('gulp-rename');
 
 
 var suffix = {suffix: '.min'};
-// scripts
+
 gulp.task('scripts', function() {
-  gulp.src('./public/scripts/*.js')
+  gulp.src('./scripts/*.js')
     .pipe(uglify())
-    .pipe(concat('index.js'))
-    // .pipe(rename(suffix))
-    .pipe(gulp.dest('./public'));
+    .pipe(concat('main.js'))
+    .pipe(gulp.dest('./scripts'));
 });
 
-// css
 gulp.task('css', function() {
-  gulp.src('./public/style.css')
+  gulp.src('./style.css')
     .pipe(cssmin())
-    // .pipe(rename(suffix))
-    .pipe(gulp.dest('./public'))
-});
-
-// html
-gulp.task('html', function() {
-  gulp.src('./public/index.html')
-    .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
-    // .pipe(rename(suffix))
-    .pipe(gulp.dest('./public'))
+    .pipe(gulp.dest('.'));
 });
 
 gulp.task('svg', function() {
-  gulp.src('./public/images/*.svg')
+  gulp.src('./badges/*.svg')
     .pipe(svgmin())
-    .pipe(gulp.dest('./public/images'));
-  
-  gulp.src('./public/badges/*.svg')
+    .pipe(gulp.dest('./badges'));
+  gulp.src('./images/*.svg')
     .pipe(svgmin())
-    .pipe(gulp.dest('./public/badges'));
+    .pipe(gulp.dest('./images'));
 });
 
-gulp.task('build', ['scripts', 'css', 'html', 'svg']);
-
-
+gulp.task('build', ['scripts', 'css', 'svg']);
