@@ -626,6 +626,7 @@ header {
   padding-top: 100px;
   text-align: center; }
   .badge img {
+    height: 50px;
     display: block;
     margin: 0 auto 40px auto; }
   .badge:first-child {
