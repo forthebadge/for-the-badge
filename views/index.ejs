@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <title>For the Badge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Adobe Typekit -->
+    <script type="text/javascript" src="//use.typekit.net/eev6skq.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      
+      <header>
+        <div class="container">
+          <p class="tagline">Badges for the sake of badges</p>
+          <h1 class="logo">For the Badge</h1>
+          <a class="down">
+            <p class="top"></p>
+            <p class="bottom"></p>
+          </a>
+          <a class="mark">Mark</a>
+          <a class="contribute" href="https://github.com/BraveUX/forthebadge" target="_blank">Contribute</a>
+        </div>
+      </header><!-- END header -->
+      
+      <section class="menu">
+        <div class="container">
+          <div class="search">
+            <label class="search-toggle">Search</label>
+            <input class="search-input" type="search" placeholder="Start typing...">
+          </div>
+          
+          <ul class="filters">
+            <li><a href="/">Home</a></li>
+            <li><a class="about-toggle" href="#">About</a></li>
+            <li><a class="all-toggle" href="#">All</a></li>
+          </ul>
+        </div>
+      </section><!-- END menu -->
+      
+
+      <main class="home">
+        <section class="search-results">
+          <ul class="search-list">
+            <% for (var i=0; i< badges.length; i++) { %>
+              <li data-search="<%= badges[i].badgeName %>">
+                <img src="<%= badges[i].badgeSrc %>" >
+                <a class="inline-copy markdown" data-clipboard-text="<%= badges[i].badgeUrl %>"></a>
+                <a class="inline-copy imageurl" data-clipboard-text="<%= badges[i].badgeMrkdn %>"></a>
+              </li>  
+            <% } %>
+          </ul><!-- END search-list -->
+        </section><!-- END search-results -->
+        
+
+        
+        <section class="about">
+          <div class="container">
+            <p class="about-heading">About</p>
+            
+            <p class="joke-start">For the Badge is a</p>
+            <p class="joke-strikethrough">Grassroots Movement</p>
+            <p class="joke-strikethrough">Scientific Endeavor</p>
+            <p class="joke-strikethrough">Humanitarian Society</p>
+            <p class="joke-strikethrough">Literary Masterpiece</p>
+            <p class="joke-strikethrough">Knitting Club</p>
+            <p class="joke-end">Complete Joke.</p>
+            
+            <p class="mission">We don&rsquo;t develop for the money, power, fame, or codebabes. We do it <strong>For the Badge</strong>.
+            <br>It all started because of an obsession with two words: &ldquo;build passing&rdquo;.
+            <br>It all ended with this: <em>badges, for badges&rsquo; sake.</em></p>
+            
+            <img class="face" src="images/face.svg">
+          </div>
+        </section><!-- END about -->
+        
+
+        <section class="badges">
+          <% for (var i=0; i< badges.length; i++) { %>
+            <div class="badge">
+              <div class="container">
+                <img src= "<%= badges[i].badgeSrc %>" >
+                <a class="copy imageurl royal" data-clipboard-text="<%= badges[i].badgeUrl %>"></a>
+                <a class="copy markdown royal" data-clipboard-text="<%= badges[i].badgeMrkdn %>"></a>
+              </div>
+            </div>  
+          <% } %>
+        </section><!-- END badges -->
+      </main><!-- END home -->
+      
+      <hr>
+      
+      <footer>
+        <div class="container">
+          <a class="view-all" href="#">View All</a>
+          <a class="attr-company" href="http://www.braveux.com" target="_blank">A Brave UX Endeavor</a>
+          <p class="attr-design">Designed by <a href="https://twitter.com/cp_allen" target="_blank">CA</a></p>
+          <p class="attr-dev">Built by <a href="https://twitter.com/callmecavs" target="_blank">MC</a> &amp; <a href="https://github.com/jacksongeller" target="_blank">Jax</a></p>
+        </div>
+      </footer>
+      
+    </div><!-- END wrapper -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
