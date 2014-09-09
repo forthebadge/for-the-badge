@@ -24,6 +24,7 @@
     "gulp-uglify": "^1.0.0"
   },
   "dependencies": {
+    "compression": "^1.1.0",
     "ejs": "^1.0.0",
     "express": "^4.9.0"
   }
