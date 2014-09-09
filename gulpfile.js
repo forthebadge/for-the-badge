@@ -3,7 +3,9 @@ var concat = require('gulp-concat');
 var cssmin = require('gulp-cssmin');
 var svgmin = require('gulp-svgmin');
 var uglify = require('gulp-uglify');
+var shell = require('gulp-shell');
 
+gulp.task('sass', shell.task(['sass public/style/style.scss public/style.css', 'rm public/*.map']));
 
 gulp.task('scripts', function() {
   gulp.src('./public/scripts/*.js')
@@ -27,4 +29,6 @@ gulp.task('svg', function() {
     .pipe(gulp.dest('./public/images'));
 });
 
-gulp.task('build', ['scripts', 'css', 'svg']);
+
+
+gulp.task('build', ['sass', 'scripts', 'css', 'svg']);
