@@ -11,6 +11,8 @@ We don’t develop for the money, power, fame, or codebabes. We do it **For the 
 2. Copy the image URL or markdown.
 3. Swag out your Github readme.
 
-[![forthebadge](http://forthebadge.com/badges/built-with-love.svg)](http://forthebadge.com)
+## Contribute
 
-Contribute badge ideas here: https://github.com/BraveUX/badgeideas
+Badge ideas here: https://github.com/BraveUX/badgeideas
+
+[![forthebadge](http://forthebadge.com/badges/built-with-love.svg)](http://forthebadge.com)
