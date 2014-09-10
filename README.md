@@ -19,9 +19,9 @@ Badge ideas here: https://github.com/BraveUX/badgeideas
 
 
 
-## All badges
+### All Badges
 
-view [here](http://forthebadge.com)
+[View Here](http://forthebadge.com)
 
 
 
