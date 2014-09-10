@@ -2,6 +2,7 @@ $(document).ready(function() {
   initSearch();
   initAbout();
   initRecent();
+  initViewAll();
   initCopy();
   initMobile();
 });
@@ -81,6 +82,13 @@ function initRecent() {
     e.preventDefault();
     $('.badges').removeClass('collapsed');
     $('html, body').animate({ scrollTop: $('.badges').offset().top }, 500);
+  });
+}
+
+function initViewAll() {
+  $('.view-all').click(function(e) {
+    e.preventDefault();
+    $('.search-toggle').click();
   });
 }
 
