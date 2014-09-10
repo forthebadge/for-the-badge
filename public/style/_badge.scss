@@ -13,10 +13,20 @@
   padding-top: 100px;
   text-align: center;
   
+  @media only screen and (max-width: $mobile) {
+    padding-top: 135px;
+  }
+  
   img {
     height: 50px;
     display: block;
     margin: 0 auto 40px auto;
+    
+    @media only screen and (max-width: $mobile) {
+      max-width: 280px;
+      @include size(auto 35px);
+      margin-bottom: 0;
+    }
   }
   
   &:first-child {

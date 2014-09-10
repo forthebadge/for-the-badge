@@ -13,6 +13,10 @@
   color: white;
   cursor: pointer;
   
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+  
   &:last-child {
     margin-right: 0;
   }

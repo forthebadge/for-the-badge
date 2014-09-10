@@ -28,12 +28,24 @@ header {
   @include size(619px 47px);
   margin-bottom: 40px;
   background: url('images/logo.svg') center center no-repeat;
+  
+  @media only screen and (max-width: $mobile) {
+    @include size(280px 21px);
+    background-size: 280px 21px;
+  }
 }
 
 .tagline {
-  @include size(475 19px);
+  @include size(475px 19px);
   margin-bottom: 20px;
   background: url('images/tagline.svg') center center no-repeat;
+  
+  @media only screen and (max-width: $mobile) {
+    @include size(240px 35px);
+    margin-bottom: 30px;
+    background-image: url('images/tagline-mobile.svg');
+    background-size: 240px 35px;
+  }
 }
 
 .down {
@@ -43,6 +55,10 @@ header {
   @include size(26px 33px);
   margin: 0 auto;
   cursor: pointer;
+  
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
   
   &::before,
   &::after {
@@ -73,6 +89,10 @@ header {
   @include size(160px);
   @include hide-text;
   background: url('images/contribute.svg') center center no-repeat;
+  
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
 }
 
 @include keyframes(arrowBefore) {
@@ -100,5 +120,24 @@ header {
 
   100% {
     top: 14px;
+  }
+}
+
+.mobile-about {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include size(100% 40px);
+  padding-top: 10px;
+  background-color: #393D43;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+  
+  @media only screen and (max-width: $mobile) {
+    display: block;
   }
 }

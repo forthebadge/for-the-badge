@@ -2,6 +2,10 @@
   height: 100px;
   background-color: white;
   
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+  
   > .container {
     max-width: 600px;
     position: relative;
