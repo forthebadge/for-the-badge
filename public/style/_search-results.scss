@@ -1,5 +1,5 @@
 .search-results {
-  @include transition(all 1s ease);
+  @include transition(all 1.0s ease);
   overflow: hidden;
   height: 0;
   
@@ -16,32 +16,20 @@
   list-style: none;
   
   li {
+    overflow: hidden;
+    @include transition(all 0.5s ease-in-out);
     @include clearfix;
     @include size(100% 35px);
     margin-bottom: 10px;
     
-    @include transition(all 0.5s ease);
-    @include perspective(1000px);
-    @include transform-style(preserve-3d);
-    @include transform-origin(left center);
-    @include backface-visibility(visible);
-    
-    &:not(.not-match) {
-      .inline-copy {
-        display: block;
-      }
+    &.not-match {
+      // margin-left: -100px;
+      margin-bottom: 0px;
+      height: 0;
     }
   }
-}
-
-.match {
-  @include transform(rotateY(0deg));
-}
-
-.not-match {
-  @include transform(rotateY(-180deg));
   
   .inline-copy {
-    opacity: 0;
+    display: block;
   }
 }
