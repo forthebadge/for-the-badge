@@ -1,9 +1,0 @@
-<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
-  <script type="text/javascript">
-  <![CDATA[
-    alert('hello test');
-  ]]>
-  </script>
-  <script type="text/javascript" src="//use.typekit.net/eev6skq.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-</svg>
