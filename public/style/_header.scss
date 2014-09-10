@@ -54,7 +54,6 @@ header {
   @include hide-text;
   @include size(26px 33px);
   margin: 0 auto;
-  cursor: pointer;
   
   @media only screen and (max-width: $mobile) {
     display: none;
