@@ -12,9 +12,14 @@
   
   &.imageurl {
     background-image: url('images/icon-imageurl-white.svg');
+    margin-right: 10px;
   }
   
   &.markdown {
     background-image: url('images/icon-markdown-white.svg');
+  }
+  
+  &.zeroclipboard-is-active {
+    background: white;
   }
 }

@@ -1,6 +1,7 @@
 .search-results {
-  @include transition(all 1.0s ease);
+  @include clearfix;
   overflow: hidden;
+  @include transition(all 1.0s ease);
   height: 0;
   
   &.expanded {
@@ -10,20 +11,20 @@
 }
 
 .search-list {
+  overflow: visible;
   @include size(600px auto);
   margin: 0 auto;
   padding-left: 0;
   list-style: none;
   
   li {
-    overflow: hidden;
+    position: relative;
     @include transition(all 0.5s ease-in-out);
     @include clearfix;
     @include size(100% 35px);
     margin-bottom: 10px;
     
     &.not-match {
-      // margin-left: -100px;
       margin-bottom: 0px;
       height: 0;
     }
