@@ -3,6 +3,7 @@ $(document).ready(function() {
   initAbout();
   initAll();
   initCopy();
+  initMobile();
 });
 
 function initSearch() {
@@ -86,4 +87,13 @@ function initCopy() {
   ZeroClipboard.config({ swfPath: 'scripts/ZeroClipboard.swf' });
   var clientCopy = new ZeroClipboard($('.copy'));
   var clientInline = new ZeroClipboard($('.inline-copy'));
+}
+
+function initMobile() {
+  $('.mobile-about').click(function(e) {
+    e.preventDefault();
+    
+    console.log('click');
+    $('.about').toggleClass('expanded-mobile');
+  });
 }
