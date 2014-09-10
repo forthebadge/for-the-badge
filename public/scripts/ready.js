@@ -1,7 +1,6 @@
 $(document).ready(function() {
   initSearch();
   initAbout();
-  initAll();
   initCopy();
   initMobile();
 });
@@ -68,13 +67,6 @@ function initSearch() {
 	});
 }
 
-function initAll() {
-  $('.all-toggle, .view-all').click(function(e) {
-    e.preventDefault();
-    $('.search-toggle').click();
-  });
-}
-
 function initAbout() {
   $('.about-toggle').click(function(e) {
     e.preventDefault();
@@ -92,8 +84,6 @@ function initCopy() {
 function initMobile() {
   $('.mobile-about').click(function(e) {
     e.preventDefault();
-    
-    console.log('click');
     $('.about').toggleClass('expanded-mobile');
   });
 }

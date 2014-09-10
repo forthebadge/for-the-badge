@@ -32,8 +32,8 @@
     @include hide-text;
     float: left;
     display: block;
-    @include size(21px);
-    margin: 40px 0 39px 0;
+    @include size(22px);
+    margin: 40px 0 38px 0;
     background-image: url('images/icon-search.svg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
     float: left;
     @include size(0px 60px);
     padding: 20px 0;
-    margin-left: 29px;
+    margin-left: 28px;
     background-color: white;
     border: none;
     font-size: 28px;
@@ -72,10 +72,17 @@
   
   li {
     float: left;
-    margin-right: 150px;
+    margin-right: 146px;
     
     &:last-child {
       margin-right: 0;
+      
+      a {
+        display: block;
+        @include hide-text;
+        @include size(25px 20px);
+        background: url('images/icon-twitter.svg') center center no-repeat;
+      }
     }
   }
   
