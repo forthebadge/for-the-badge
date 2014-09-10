@@ -86,7 +86,7 @@ function initRecent() {
 }
 
 function initViewAll() {
-  $('.view-all').click(function(e) {
+  $('.view-all, .view-all-toggle').click(function(e) {
     e.preventDefault();
     $('.search-toggle').click();
   });
