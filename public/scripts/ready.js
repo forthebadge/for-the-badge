@@ -1,6 +1,7 @@
 $(document).ready(function() {
   initSearch();
   initAbout();
+  initRecent();
   initCopy();
   initMobile();
 });
@@ -26,7 +27,7 @@ function initSearch() {
         if(firstCallback) {
           search.toggleClass('expanded');
           searchResults.toggleClass('expanded');
-          homepageBadges.toggleClass('collapsed');
+          homepageBadges.addClass('collapsed');
           searchInput.focus();
           
           firstCallback = false;
@@ -37,7 +38,7 @@ function initSearch() {
     // if search is open
     else {
       search.toggleClass('expanded');
-      searchResults.toggleClass('expanded');
+      searchResults.removeClass('expanded');
       homepageBadges.toggleClass('collapsed');
       
       firstCallback = true;
@@ -71,7 +72,15 @@ function initAbout() {
   $('.about-toggle').click(function(e) {
     e.preventDefault();
     $('.about').toggleClass('expanded');
-    $('.badges').toggleClass('collapsed');
+    $('.badges').removeClass('collapsed');
+  });
+}
+
+function initRecent() {
+  $('.recent-toggle').click(function(e) {
+    e.preventDefault();
+    $('.badges').removeClass('collapsed');
+    $('html, body').animate({ scrollTop: $('.badges').offset().top }, 500);
   });
 }
 
