@@ -31,4 +31,4 @@ gulp.task('svg', function() {
 
 
 
-gulp.task('build', ['sass', 'scripts', 'css', 'svg']);
+gulp.task('build', ['sass', 'scripts', 'css']);
