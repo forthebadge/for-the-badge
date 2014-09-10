@@ -59,6 +59,7 @@
 
 .joke-strikethrough {
   position: relative;
+  display: inline-block;
   
   &::after {
     content: "";
