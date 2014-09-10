@@ -1,4 +1,5 @@
 # For the Badge
+[![Build Status](https://travis-ci.org/BraveUX/forthebadge.svg)](https://travis-ci.org/BraveUX/forthebadge)
 
 [![forthebadge](http://forthebadge.com/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/badges/no-ragrets.svg)](http://forthebadge.com)
