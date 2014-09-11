@@ -5,16 +5,6 @@ var server = require('../server');
 server.listen(3000);
 
 
-
-function loopThroughBadges(badge) {
-  it('should exist', function(done) {
-    request('http://localhost:3000/' + badge.src, function(e, r, b) {
-      assert(r.statusCode, 200);
-      return done();
-    });
-  });
-}
-
 describe('Application', function() {
   
   it('should be up', function(done) {
@@ -31,7 +21,12 @@ describe('Badges', function() {
     if (err) return done(err);
     var badges = files.badges;
     for (var i in badges) {
-      loopThroughBadges(badges[i]);
+      it('should exist', function(done) {
+        request('http://localhost:3000/' + badges[i].src, function(e, r, b) {
+          assert(r.statusCode, 200);
+          return done();
+        });
+      });
     }
   });
 });
