@@ -1069,24 +1069,19 @@ TgClAKcATwC3ALcAUgDSANQAUwDoAOkAVgDrAOsAWAAA")}
 <script type="text/javascript">
   <![CDATA[
     setTimeout(function() {
-      // init
       var rect1 = document.getElementById("rect1");
       var rect2 = document.getElementById("rect2");
       var text1 = document.getElementById("text1");
       var text2 = document.getElementById("text2");
-      
-      // Section 1
       var textWidth1 = text1.offsetWidth;
       var textPadding1 = 10;
       var rectWidth1 = textWidth1 + 20 ;
       rect1.setAttribute("width", rectWidth1);
       text1.setAttribute("transform", "matrix(1 0 0 1 " + textPadding1 + " 21)")
-
       var rectLocation2 = rectWidth1; 
       var textWidth2 = text2.offsetWidth;
       var rectWidth2 = textWidth2 + 20;
       var textPadding2 = rectLocation2 + 10;
-
       rect2.setAttribute("x", rectLocation2);
       rect2.setAttribute("width", rectWidth2);
       text2.setAttribute("transform", "matrix(1 0 0 1 " + textPadding2 + " 21)")

@@ -24,9 +24,15 @@ gulp.task('svg', function() {
   gulp.src('./public/badges/*.svg')
     .pipe(svgmin())
     .pipe(gulp.dest('./public/badges'));
+  
   gulp.src('./public/images/*.svg')
     .pipe(svgmin())
     .pipe(gulp.dest('./public/images'));
+  
+  gulp.src('./generator/minTemp.svg')
+    .pipe(svgmin())
+    .on('error', function(e) {console.log(e)})
+    .pipe(gulp.dest('./generator'));
 });
 
 

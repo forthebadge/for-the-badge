@@ -14,7 +14,11 @@ http.createServer(function(req, res) {
 
 
   if ( isSvg.test(url) ) {
-    var data = url.replace(/%20/g,' ').replace('.svg','').split('-');
+    var data = url
+      .replace(/%20/g,' ')
+      .replace(/!/g,'#')
+      .replace('.svg','')
+      .split('-');
     data[2] = data[2] || '#86C8D6';
     data[3] = data[3] || '#095382';
 
