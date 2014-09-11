@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+]]>
+</style>
+
+
+
+<g>
+  <!-- light red rectangle -->
+  <rect style="fill:#EA4460;" width="190" height="35" id="rect1"/>
+  
+  <!-- no, no, no, padding-left, padding-top -->
+  <text transform="matrix(1 0 0 1 10 21)" style="fill:#FFFFFF; font-family:'DINNextLTPro-Bold'; font-size:12; letter-spacing:3;" id="text1">COMPATABILITY</text>
+  
+
+  <rect x="154" style="fill:#C13A3A;" width="65" height="35" id="rect2"/>
+  <text transform="matrix(1 0 0 1 168 21)" style="fill:#FFFFFF; font-family:'DINNextLTPro-Bold'; font-size:12; letter-spacing:3;" id="text2">IE 6</text>
+</g>
+
+
+
+
+<script type="text/javascript">
+  <![CDATA[
+    // init vars
+    var rect1 = document.getElementById("rect1");
+    var rect2 = document.getElementById("rect2");
+    var text1 = document.getElementById("text1");
+    var text2 = document.getElementById("text2");
+
+
+    var textWidth1 = text1.offsetWidth;
+    var textPadding1 = 10;
+    var rectWidth1 = textWidth1 + 10 + 20; // set rect 1 width
+    
+    // start 1 chopping it up
+    rect1.setAttribute("width", rectWidth1);
+    text1.setAttribute("transform", "matrix(1 0 0 1 "+textPadding1+" 21)")
+
+
+    var rectLocation2 = rectWidth1; // put the rect right next to the other
+    var textWidth2 = text2.offsetWidth;
+    var textPadding2 = rectLocation2 + 17;
+    var rectWidth2 = textWidth2 + 10 + 20;
+
+    // start 2 chopping it up
+    rect2.setAttribute("x", rectLocation2);
+    rect2.setAttribute("width", rectWidth2);
+    text2.setAttribute("transform", "matrix(1 0 0 1 " + textPadding2 + " 21)")
+
+  ]]>
+</script>
+
+
+
+
+
+</svg>
