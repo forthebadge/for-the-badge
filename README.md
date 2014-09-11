@@ -24,7 +24,3 @@ Badge ideas here: https://github.com/BraveUX/badgeideas
 [View Here](http://forthebadge.com)
 
 
-
-
-test
-[![forthebadge](http://107.170.52.28:4000/generate/jackson-geller.svg)](http://forthebadge.com)
