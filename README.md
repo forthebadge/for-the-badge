@@ -13,8 +13,8 @@ We don’t develop for the money, power, fame, or codebabes. We do it **For the 
 
 ## Generate badges (alpha)
 1. go to http://107.170.154.45/
-2. badges are generated with the following criteria: <word1>-<word2>-[color1]-[color2].svg
-3. Everything is separated by dashes, colors are optional and may be formatted in css values.
+2. badges are generated with the following criteria: `<word1>-<word2>-[color1]-[color2].svg`
+3. Everything is `separated by dashes`, colors are optional and may be formatted in css values.
 4. If using hex for colors, prepend ! instead of #
 5. Examples
 
