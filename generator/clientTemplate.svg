@@ -540,10 +540,10 @@ AEYAmQCZAEcAnQCdAEgAoQChAEkApQCnAEoA0gDUAE0A6ADpAFAA6wDrAFIA9QD1AFMAAA==")}
 ]]>
 </style>
 <g>
-  <rect style="fill:<%= color1 %>;" width="" height="35" id="rect1"/>
-  <text transform="" style="fill:#FFFFFF; font-family:'Montserrat-Bold'; font-size:12; letter-spacing:3;" id="text1"><%= text[0] %></text>
-  <rect x="" style="fill:<%= color2 %>;" width="" height="35" id="rect2"/>
-  <text transform="" style="fill:#FFFFFF; font-family:'Montserrat-Bold'; font-size:12; letter-spacing:3;" id="text2"><%= text[1] %></text>
+  <rect style="fill:<%= colors[0].replace('.svg','') %>;" width="" height="35" id="rect1"/>
+  <text transform="" style="fill:#FFFFFF; font-family:'Montserrat-Bold'; font-size:12; letter-spacing:3;" id="text1"><%= text[0].split(':')[0] %></text>
+  <rect x="" style="fill:<%= colors[1].replace('.svg','') %>;" width="" height="35" id="rect2"/>
+  <text transform="" style="fill:#FFFFFF; font-family:'Montserrat-Bold'; font-size:12; letter-spacing:3;" id="text2"><%= text[1].split(':')[0] %></text>
 </g>
 <script type="text/javascript">
   <![CDATA[
