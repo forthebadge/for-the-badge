@@ -24,5 +24,3 @@ Badge ideas here: https://github.com/BraveUX/badgeideas
 [View Here](http://forthebadge.com)
 
 
-
-
