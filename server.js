@@ -23,26 +23,9 @@ app.get('/', function(req, res) {
   });
 });
 
-app.get('/generate/:badgeText/:color1?/:color2?', function(req, res) {
-  res.type('image/svg+xml;charset=utf-8');
-
-
-  if (!req.params.badgeText || req.params.badgeText.split('-').length <= 1) {
-    res.send('Malformed badge, need a dash between text');
-  }
-  var badgeText = req.params.badgeText.split('-');
-  var color1 = req.params.color1 || '#EA4460';
-  var color2 = req.params.color2 || '#C13A3A';
-
-  templater.compileFromFile('./generator/clientTemplate.svg', {text:badgeText, color1: color1, color2: color2}, function(err, data) {
-    if (err) res.send(err);
-    if (data) {
-      res.send(data)
-    }
-  });  
+app.all('*', function(req, res) {
+  res.redirect('/');
 });
-
-
 
 
 app.listen(3000);
