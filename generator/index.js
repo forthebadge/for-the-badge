@@ -1,5 +1,7 @@
 var http = require('http');
-var templater = require('svg-templater');
+var templater = require('lodash-template-stream');
+var fs = require('fs');
+
 
 http.createServer(function(req, res) {
   
@@ -31,16 +33,10 @@ http.createServer(function(req, res) {
     data[2] = data[2] || '#86C8D6';
     data[3] = data[3] || '#095382';
 
-    templater.compileFromFile('./generator/clientTemplate.svg', {data:data}, function(err, data) {
-      if (err) {
-        res.write(err);
-        res.end();
-      }
-      else if (data) {
-        res.write(data);
-        res.end();     
-      }
-    });
+    var read = fs.createReadStream('./generator/clientTemplate.svg');
+    read
+      .pipe(templater({data: data}))
+      .pipe(res);
   }
   
 }).listen(3000);
