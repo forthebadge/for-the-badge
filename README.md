@@ -18,8 +18,9 @@ We don’t develop for the money, power, fame, or codebabes. We do it **For the 
 4. If using hex for colors, prepend ! instead of #
 5. Examples
 
-`http://107.170.154.45/this%20is%20my%20badge-and%20it%20is%20nice-!ccc-red.svg`
+`http://107.170.154.45/this is my badge-and it is nice-!ccc-red.svg`
 
+note that URLs get encoded automatically
 
 ## Contribute
 
