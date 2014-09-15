@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var helpers = require('./helpers');
 var compress = require('compression');
-var fs = require('fs');
 var templater = require('svg-templater');
 
 
