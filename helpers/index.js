@@ -1,6 +1,5 @@
 var fs = require('fs');
 
-
 exports.getBadges = function(dir, callback) {
   
   fs.readdir(dir, function(err, files) {
