@@ -11,16 +11,18 @@ We don’t develop for the money, power, fame, or codebabes. We do it **For the 
 2. Copy the image URL or markdown.
 3. Swag out your Github readme.
 
-## Generate badges (alpha)
-1. go to http://107.170.154.45/
-2. badges are generated with the following criteria: `<word1>-<word2>-[color1]-[color2].svg`
-3. Everything is `separated by dashes`, colors are optional and may be formatted in css values.
-4. If using hex for colors, prepend ! instead of #
-5. Examples
+## Generate Badges (Alpha)
+1. Visit create.forthebadge.com
+2. Badges are generated based on the URL, following this format: `<word1>-<word2>-[color1]-[color2].svg`
+3. URL parameters are `separated by dashes`
+4. Colors are optional, and should be formatted as in CSS
+5. If using HEX codes for colors, prepend ! instead of #
 
-`http://107.170.154.45/this is my badge-and it is nice-!ccc-red.svg`
+###### Example
 
-note that URLs get encoded automatically
+`http://create.forthebadge.com/this is my badge-and it is nice-!ccc-red.svg`
+
+Note that URLs get encoded automatically.
 
 ## Contribute
 
