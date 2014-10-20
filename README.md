@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # For the Badge
 
 [![forthebadge](http://forthebadge.com/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
@@ -10,19 +11,6 @@ We don’t develop for the money, power, fame, or codebabes. We do it **For the 
 1. Check out all 40+ badges!  Click 'View All' or the search icon.
 2. Copy the image URL or markdown.
 3. Swag out your Github readme.
-
-## Generate Badges (Alpha)
-1. Visit create.forthebadge.com
-2. Badges are generated based on the URL, following this format: `<word1>-<word2>-[color1]-[color2].svg`
-3. URL parameters are `separated by dashes`
-4. Colors are optional, and should be formatted as in CSS
-5. If using HEX codes for colors, prepend ! instead of #
-
-###### Example
-
-`http://create.forthebadge.com/this is my badge-and it is nice-!ccc-red.svg`
-
-Note that URLs get encoded automatically.
 
 ## Contribute
 
@@ -37,3 +25,84 @@ Badge ideas here: https://github.com/BraveUX/badgeideas
 [View Here](http://forthebadge.com)
 
 
+=======
+# Badge Ideas
+
+Badge ideas for inthebadge.com
+
+## Contributing
+Just edit the readme and submit a pull request.
+
+
+## Validation
+* Uses HTML
+* Uses CSS
+* Uses JS
+* Uses Git
+* Uses Badges
+
+## Built By
+* Developers
+* Hipsters
+* Code Babes
+
+## Built With
+* Love
+* Corruption
+* Chaos
+* Swag
+
+## Compatibility
+* Betamax
+* IE 6
+* Opera 4
+* Blackberry
+* Boost Mobile Phones
+* Club Penguin
+* Emacs
+
+## Contains
+* cat gifs
+
+## Reading Level
+* 6th grade
+
+## Does Not Contain
+* MSG
+* Tree Nuts
+* Gluten
+
+## Ages
+* 12 and up
+* 20 - 30
+
+## As seen on TV
+
+## Safe for Work
+* SFW
+* Risque
+* Indecent
+
+## Powered by
+* Netflix
+* Jeff's Keyboard
+* Comcast
+* The Watergate
+* Westgate Elementary School
+* Republic of Georgia
+* Case Western Reserve
+
+## Certified by
+* Dr. Steve Brule
+
+## Fo'
+* Sho
+* Shizzle
+
+# Rated
+* PG
+* G
+* M
+* M15+
+* R
+>>>>>>> 9e785f64f6e7a70d255f8be00283f53b254b68a2
