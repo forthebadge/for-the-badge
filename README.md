@@ -11,40 +11,38 @@ We don't develop for the money, power, fame, or codebabes. We do it **For the Ba
 2. Copy the image URL or markdown.
 3. Swag out your Github readme.
 
-## All Badges
+# All Badges
 
 ### Contributing
 
-Edit the list below and submit a pull request.  Add to the appropriate category if possible.
+Edit the list below and submit a pull request.  Add to the appropriate category if possible. A \* indicates a custom icon.
 
-\* indicates a custom icon.
+**Last updated:** `October 27, 2014`.
 
-Last updated: `October 27, 2014`.
-
-### Ages
+###### Ages
 
 * 12+
 * 20-30
 
-### Built By
+###### Built By
 
 * Code Babes
 * Crips
 * Developers \*
 * Hipsters \*
 
-### Built With
+###### Built With
 
 * Love \*
 * Swag
 
-### Certified By
+###### Certified By
 
 * Cousin Terio
 * Snoop Lion
 * Dr. Steve Bruhle
 
-### Compatibility
+###### Compatibility
 
 * Betamax
 * Blackberry
@@ -53,33 +51,33 @@ Last updated: `October 27, 2014`.
 * IE 6
 * Opera 4
 
-### Contains
+###### Contains
 
 * Cat GIFs \*
 
-### Does Not Contain
+###### Does Not Contain
 
 * MSG
 * Tree Nuts
 
-### Designed In
+###### Designed In
 
 * Microsoft Paint
 
-### Fo
+###### Fo
 
 * Shizzle
 * Sho
 
-### For
+###### For
 
 * Sharks
 
-### Made With
+###### Made With
 
 * Crayons \*
 
-### Powered By
+###### Powered By
 
 * Case Western Reserve
 * Comcast
@@ -90,7 +88,7 @@ Last updated: `October 27, 2014`.
 * Water \*
 * The Watergate
 
-### Uses
+###### Uses
 
 * Badges
 * CSS
@@ -98,11 +96,11 @@ Last updated: `October 27, 2014`.
 * HTML
 * JS
 
-### Validated
+###### Validated
 
 * HTML2
 
-## Miscellaneous
+###### Miscellaneous
 
 * Fuck It Ship It
 * No Ragrets
