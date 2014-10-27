@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # For the Badge
 
 [![forthebadge](http://forthebadge.com/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
@@ -45,6 +44,7 @@ Just edit the readme and submit a pull request.
 * Developers
 * Hipsters
 * Code Babes
+* Crips
 
 ## Built With
 * Love
@@ -91,6 +91,11 @@ Just edit the readme and submit a pull request.
 * Westgate Elementary School
 * Republic of Georgia
 * Case Western Reserve
+* Ramen
+ 
+## Sponsored by
+* Water - stay hydrated
+* Oxygen
 
 ## Certified by
 * Dr. Steve Brule
@@ -98,6 +103,7 @@ Just edit the readme and submit a pull request.
 ## Fo'
 * Sho
 * Shizzle
+* Sheezy
 
 # Rated
 * PG
@@ -105,4 +111,3 @@ Just edit the readme and submit a pull request.
 * M
 * M15+
 * R
->>>>>>> 9e785f64f6e7a70d255f8be00283f53b254b68a2
