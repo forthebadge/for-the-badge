@@ -34,6 +34,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 ###### Built With
 
 * Love \*
+* Ruby
 * Swag
 
 ###### Certified By
