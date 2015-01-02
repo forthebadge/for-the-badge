@@ -11,15 +11,15 @@ function initSearch() {
   // cache vars
   var homepageBadges = $('.badges');
   var menu = $('.menu');
-  
+
   var search = $('.search');
   var searchToggle = $('.search-toggle');
   var searchInput = $('.search-input');
   var searchResults = $('.search-results');
-  
+
   var searchClosed = true;
   var firstCallback = true;
-  
+
   $('.search-toggle').click(function(e) {
     // if search is closed
     if(searchClosed) {
@@ -30,7 +30,7 @@ function initSearch() {
           searchResults.toggleClass('expanded');
           homepageBadges.addClass('collapsed');
           searchInput.focus();
-          
+
           firstCallback = false;
           searchClosed = false;
         }
@@ -41,28 +41,28 @@ function initSearch() {
       search.toggleClass('expanded');
       searchResults.removeClass('expanded');
       homepageBadges.toggleClass('collapsed');
-      
+
       firstCallback = true;
       searchClosed = true;
     }
 	});
-	
+
 	// cache vars
 	var searchText;
 	var searchSplit;
 	var searchItems = $('.search-list li');
-	
+
 	$('.search-input').keyup(function() {
 	  // get search text, all lowercase
   	searchText = $(this).val().toLowerCase();
-  	
+
   	// remove match/not-match classes
   	searchItems.removeAttr('class');
-  	
+
   	if(searchText != '') {
     	// find matches
       $('.search-list li[data-search*="' + searchText + '"]').addClass('match');
-      
+
       // find not-matches
       $('.search-list li:not([data-search*="' + searchText + '"])').addClass('not-match');
   	}

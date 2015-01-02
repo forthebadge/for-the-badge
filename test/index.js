@@ -6,7 +6,7 @@ server.listen(3000);
 
 
 describe('Application', function() {
-  
+
   it('should be up', function(done) {
     request('http://localhost:3000/', function(e, r, b) {
       assert(r.statusCode, 200);

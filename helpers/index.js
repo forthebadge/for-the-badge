@@ -1,7 +1,7 @@
 var fs = require('fs');
 
 exports.getBadges = function(dir, callback) {
-  
+
   fs.readdir(dir, function(err, files) {
     if (err) {
       return callback(err);
@@ -11,7 +11,7 @@ exports.getBadges = function(dir, callback) {
     }
 
     var max = files.length;
-    var holder = []
+    var holder = [];
 
     for (var i = 0; i < max; i += 1) {
       holder.push({
@@ -22,9 +22,7 @@ exports.getBadges = function(dir, callback) {
       });
     }
 
-    return callback(null, {badges: holder});  
+    return callback(null, {badges: holder});
 
   });
-}
-
-
+};
