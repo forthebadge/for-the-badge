@@ -4,10 +4,10 @@ var fs = require('fs');
 
 
 http.createServer(function(req, res) {
-  
+
   var url = req.url;
   url = url.substr(1, req.url.length);
-  
+
   var isSvg = new RegExp('.svg');
 
 
@@ -17,7 +17,7 @@ http.createServer(function(req, res) {
   }
   if (!isSvg.test(url)) {
     res.write('no svg input given');
-    res.end(); 
+    res.end();
   }
 
 
@@ -29,7 +29,7 @@ http.createServer(function(req, res) {
       .replace(/!/g,'#')
       .replace('.svg','')
       .split('-');
-    
+
     data[2] = data[2] || '#86C8D6';
     data[3] = data[3] || '#095382';
 
@@ -38,5 +38,5 @@ http.createServer(function(req, res) {
       .pipe(templater({data: data}))
       .pipe(res);
   }
-  
+
 }).listen(3000);

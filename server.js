@@ -14,8 +14,8 @@ app.use(express.static(public, {maxAge: 86400000} ));
 app.use(express.Router());
 
 
-app.get('/', function(req, res) {  
-  
+app.get('/', function(req, res) {
+
   helpers.getBadges('./public/badges', function(err, badges) {
     if (err) res.send(err);
     res.render('index', badges);

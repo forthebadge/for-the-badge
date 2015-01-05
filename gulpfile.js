@@ -1,4 +1,4 @@
-var gulp = require("gulp");
+var gulp = require('gulp');
 var concat = require('gulp-concat');
 var cssmin = require('gulp-cssmin');
 var svgmin = require('gulp-svgmin');
@@ -24,14 +24,14 @@ gulp.task('svg', function() {
   gulp.src('./public/badges/*.svg')
     .pipe(svgmin())
     .pipe(gulp.dest('./public/badges'));
-  
+
   gulp.src('./public/images/*.svg')
     .pipe(svgmin())
     .pipe(gulp.dest('./public/images'));
-  
+
   gulp.src('./generator/minTemp.svg')
     .pipe(svgmin())
-    .on('error', function(e) {console.log(e)})
+    .on('error', function(e) {console.log(e);})
     .pipe(gulp.dest('./generator'));
 });
 
