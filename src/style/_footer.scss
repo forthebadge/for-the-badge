@@ -2,7 +2,7 @@ hr {
   @include size(100% 210px);
   background-color: #CCCECF;
   border: none;
-  
+
   @media only screen and (max-width: $mobile) {
     display: none;
   }
@@ -13,11 +13,11 @@ footer {
   @include size(100% 210px);
   padding-top: 85px;
   background: url() #B7B9BB center -100px no-repeat;
-  
+
   @media only screen and (max-width: $mobile) {
     height: 300px;
   }
-  
+
   a {
     color: #393D43;
   }
@@ -32,7 +32,7 @@ footer {
   @include size(143px 165px);
   margin-left: -71px;
   background: url('images/button-view-all.svg') center center no-repeat;
-  
+
   @media only screen and (max-width: $mobile) {
     display: none;
   }
@@ -45,7 +45,7 @@ footer {
   @include hide-text;
   @include size(238px 17px);
   background: url('images/attr-company.svg') center center no-repeat;
-  
+
   @media only screen and (max-width: $mobile) {
     margin-bottom: 40px;
   }
@@ -61,7 +61,7 @@ footer {
   letter-spacing: 2pt;
   text-transform: uppercase;
   color: white;
-  
+
   @media only screen and (max-width: $mobile) {
     text-align: center;
   }

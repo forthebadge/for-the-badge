@@ -12,15 +12,15 @@
   text-align: center;
   color: white;
   cursor: pointer;
-  
+
   @media only screen and (max-width: $mobile) {
     display: none;
   }
-  
+
   &:last-child {
     margin-right: 0;
   }
-  
+
   &::before,
   &::after {
     @include transition(all 0.25s);
@@ -29,11 +29,11 @@
     left: 0;
     @include size(100%);
   }
-  
+
   &::before {
     padding-top: 4px;
   }
-  
+
   &::after {
     content: "";
     top: 0;
@@ -47,25 +47,25 @@
     content: "Copy ImageURL";
     top: 100%;
   }
-  
+
   &.white {
     &::after {
       background-image: url('images/icon-imageurl-white.svg');
     }
   }
-  
+
   &.cyan {
     &::after {
       background-image: url('images/icon-imageurl-cyan.svg');
     }
   }
-  
+
   &.royal {
     &::after {
       background-image: url('images/icon-imageurl-royal.svg');
     }
   }
-  
+
   &.navy {
     &::after {
       background-image: url('images/icon-imageurl-navy.svg');
@@ -78,25 +78,25 @@
     content: "Copy Markdown";
     top: 100%;
   }
-  
+
   &.white {
     &::after {
       background-image: url('images/icon-markdown-white.svg');
     }
   }
-  
+
   &.cyan {
     &::after {
       background-image: url('images/icon-markdown-cyan.svg');
     }
   }
-  
+
   &.royal {
     &::after {
       background-image: url('images/icon-markdown-royal.svg');
     }
   }
-  
+
   &.navy {
     &::after {
       background-image: url('images/icon-markdown-navy.svg');
@@ -140,17 +140,17 @@
     background: #F4F4F0;
     opacity: 0.2;
   }
-  
+
   &.cyan {
     background: #26C7D5;
     opacity: 0.2;
   }
-  
+
   &.royal {
     background: #009FEF;
     opacity: 0.2;
   }
-  
+
   &.navy {
     background: #5593C9;
     opacity: 0.2;

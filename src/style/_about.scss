@@ -5,23 +5,23 @@
   background-color: #F4F4F0;
   text-align: center;
   color: #44484D;
-  
+
   @media only screen and (max-width: $mobile) {
     display: none;
     height: auto;
     padding-top: 50px;
     border-bottom: 25px solid $blue;
-    
+
     &.expanded-mobile {
       display: block;
     }
-    
+
     > .container {
       width: 90%;
       margin: 0 5%;
     }
   }
-  
+
   &.expanded {
     height: 1180px;
     padding: 80px 0 0 0;
@@ -34,7 +34,7 @@
   font-size: 20px;
   letter-spacing: 4pt;
   text-transform: uppercase;
-  
+
   @media only screen and (max-width: $mobile) {
     margin-bottom: 60px;
   }
@@ -49,7 +49,7 @@
   line-height: 49px;
   text-transform: uppercase;
   color: $blue;
-  
+
   @media only screen and (max-width: $mobile) {
     font-size: 16px;
     line-height: 120%;
@@ -60,7 +60,7 @@
 .joke-strikethrough {
   position: relative;
   display: inline-block;
-  
+
   &::after {
     content: "";
     position: absolute;
@@ -70,7 +70,7 @@
     opacity: .9;
     @include size(100% 7px);
     background-color: #6D6E71;
-    
+
     @media only screen and (max-width: $mobile) {
       top: 8px;
       height: 3px;
@@ -80,7 +80,7 @@
 
 .joke-start {
   margin-bottom: 50px;
-  
+
   @media only screen and (max-width: $mobile) {
     margin-bottom: 30px;
   }
@@ -88,7 +88,7 @@
 
 .joke-end {
   margin-top: 50px;
-  
+
   @media only screen and (max-width: $mobile) {
     margin-top: 30px;
   }
@@ -101,10 +101,10 @@
   font-weight: 300;
   font-size: 16px;
   color: #44484D;
-  
+
   @media only screen and (max-width: $mobile) {
     margin-top: 40px;
-  
+
     br {
       display: none;
     }
@@ -113,7 +113,7 @@
 
 .face {
   margin-bottom: 120px;
-  
+
   @media only screen and (max-width: $mobile) {
     margin-bottom: 80px;
   }

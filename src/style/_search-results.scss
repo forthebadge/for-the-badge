@@ -3,7 +3,7 @@
   overflow: hidden;
   @include transition(all 1.0s ease);
   height: 0;
-  
+
   &.expanded {
     height: 2400px;
     padding: 20px 0 50px 0;
@@ -16,7 +16,7 @@
   margin: 0 auto;
   padding-left: 0;
   list-style: none;
-  
+
   li {
     overflow: hidden;
     position: relative;
@@ -24,13 +24,13 @@
     @include clearfix;
     @include size(100% 35px);
     margin-bottom: 10px;
-    
+
     &.not-match {
       margin-bottom: 0px;
       height: 0;
     }
   }
-  
+
   .inline-copy {
     display: block;
   }

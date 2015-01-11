@@ -9,16 +9,16 @@
   background-position: center center;
   background-repeat: no-repeat;
   cursor: pointer;
-  
+
   &.imageurl {
     background-image: url('images/icon-imageurl-white.svg');
     margin-right: 10px;
   }
-  
+
   &.markdown {
     background-image: url('images/icon-markdown-white.svg');
   }
-  
+
   &.zeroclipboard-is-active {
     background: white;
   }

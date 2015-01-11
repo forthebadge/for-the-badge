@@ -1,11 +1,11 @@
 .menu {
   height: 100px;
   background-color: white;
-  
+
   @media only screen and (max-width: $mobile) {
     display: none;
   }
-  
+
   > .container {
     max-width: 600px;
     position: relative;
@@ -16,17 +16,17 @@
   position: relative;
   float: left;
   z-index: 1;
-  
+
   &.expanded {
     label {
       background-image: url('images/icon-close.svg');
     }
-    
+
     input {
       width: 550px;
     }
   }
-  
+
   label {
     @include transition(background-image 0.25s ease-in-out);
     @include hide-text;
@@ -39,7 +39,7 @@
     background-repeat: no-repeat;
     cursor: pointer;
   }
-  
+
   input {
     @include transition(width .25s ease-in-out);
     @include appearance(none);
@@ -53,7 +53,7 @@
     color: #A2A4A7;
     outline: none;
     overflow: hidden;
-    
+
     @include placeholder {
       color: #B7B9BB;
     }
@@ -69,14 +69,14 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  
+
   li {
     float: left;
     margin-right: 146px;
-    
+
     &:last-child {
       margin-right: 0;
-      
+
       a {
         display: block;
         @include hide-text;
@@ -85,7 +85,7 @@
       }
     }
   }
-  
+
   a {
     font-weight: bold;
     text-transform: uppercase;

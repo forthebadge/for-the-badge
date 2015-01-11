@@ -1,4 +1,7 @@
-// color vars
+@import "normalize";
+@import "bourbon/bourbon";
+
+// colors
 
 $blue: #26C7D5;
 $orange: #E46C17;
@@ -7,15 +10,7 @@ $orange: #E46C17;
 
 $mobile: 480px;
 
-// normalize
-
-@import "normalize";
-
-// bourbon.io
-
-@import "bourbon/bourbon";
-
-// box sizing
+// globals
 
 *,
 *:before,
@@ -23,8 +18,6 @@ $mobile: 480px;
   @include box-sizing(border-box);
   margin: 0;
 }
-
-// globals
 
 body {
   font-family: 'brandon-grotesque', sans-serif;
