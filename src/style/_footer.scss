@@ -31,7 +31,7 @@ footer {
   @include hide-text;
   @include size(143px 165px);
   margin-left: -71px;
-  background: url('images/button-view-all.svg') center center no-repeat;
+  background: url("images/button-view-all.svg") center center no-repeat;
 
   @media only screen and (max-width: $mobile) {
     display: none;
@@ -44,7 +44,7 @@ footer {
   margin-top: 8px;
   @include hide-text;
   @include size(238px 17px);
-  background: url('images/attr-company.svg') center center no-repeat;
+  background: url("images/attr-company.svg") center center no-repeat;
 
   @media only screen and (max-width: $mobile) {
     margin-bottom: 40px;

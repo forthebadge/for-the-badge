@@ -21,13 +21,13 @@ header {
   left: 50%;
   @include size(77px 89px);
   margin-left: -38px;
-  background: url('images/mark.svg') center center no-repeat;
+  background: url("images/mark.svg") center center no-repeat;
 }
 
 .logo {
   @include size(619px 47px);
   margin-bottom: 40px;
-  background: url('images/logo.svg') center center no-repeat;
+  background: url("images/logo.svg") center center no-repeat;
 
   @media only screen and (max-width: $mobile) {
     @include size(280px 21px);
@@ -38,12 +38,12 @@ header {
 .tagline {
   @include size(475px 19px);
   margin-bottom: 20px;
-  background: url('images/tagline.svg') center center no-repeat;
+  background: url("images/tagline.svg") center center no-repeat;
 
   @media only screen and (max-width: $mobile) {
     @include size(240px 35px);
     margin-bottom: 30px;
-    background-image: url('images/tagline-mobile.svg');
+    background-image: url("images/tagline-mobile.svg");
     background-size: 240px 35px;
   }
 }
@@ -66,7 +66,7 @@ header {
     left: 0;
     display: block;
     @include size(26px 13px);
-    background: url('images/down.svg') center center no-repeat;
+    background: url("images/down.svg") center center no-repeat;
   }
 
   &::before {
@@ -87,7 +87,7 @@ header {
   right: 0;
   @include size(160px);
   @include hide-text;
-  background: url('images/contribute.svg') center center no-repeat;
+  background: url("images/contribute.svg") center center no-repeat;
 
   @media only screen and (max-width: $mobile) {
     display: none;
