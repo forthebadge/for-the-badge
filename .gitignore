@@ -5,3 +5,5 @@ node_modules
 *.swo
 *.swp
 *.map
+*.log
+*.sublime*
