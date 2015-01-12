@@ -1,0 +1,25 @@
+.inline-copy {
+  opacity: 1;
+  @include transition(opacity 0.5s ease);
+  display: none;
+  float: right;
+  @include size(60px 35px);
+  @include hide-text;
+  background-color: #393D43;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  &.imageurl {
+    background-image: url("images/icons/icon-imageurl-white.svg");
+    margin-right: 10px;
+  }
+
+  &.markdown {
+    background-image: url("images/icons/icon-markdown-white.svg");
+  }
+
+  &.zeroclipboard-is-active {
+    background: white;
+  }
+}

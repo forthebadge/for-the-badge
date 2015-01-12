@@ -1,0 +1,68 @@
+extends ./includes/layout.jade
+
+//- HEADER
+block header
+
+  .container
+    p.tagline Badges for the sake of Badges
+    h1.logo For the Badge
+    a.down
+      p.top
+      p.bottom
+    a.mark Mark
+    a.contribute(href="https://github.com/BraveUX/forthebadge", target="_blank") Contribute
+    a.mobile-about About
+
+//- MENU
+block menu
+
+  .container
+    .search
+      label.search-toggle Search
+      input.search-input(type="search", placeholder="Start typing...")
+    ul.filters
+      li: a.view-all-toggle(href="#") View All
+      li: a.about-toggle(href="#") About
+      li: a(href="http://www.twitter.com/forthebadge" target="_blank") Twitter
+
+//- MAIN
+block main
+
+  section.search-results
+    ul.search-list
+      each item in badges
+        li(data-search="#{item}")
+          img(src="images/badges/#{item}")
+          a.inline-copy.markdown(data-clipboard-text="[![forthebadge](http://forthebadge.com/images/badges/#{item})](http://forthebadge.com)")
+          a.inline-copy.imageurl(data-clipboard-text="http://forthebadge.com/images/badges/#{item}")
+
+  section.about
+    .container
+      p.about-heading About
+      p.joke-start For the Badge is a
+      p.joke-strikethrough Grassroots Movement
+      p.joke-strikethrough Scientific Endeavor
+      p.joke-strikethrough Humanitarian Society
+      p.joke-strikethrough Literary Masterpiece
+      p.joke-strikethrough Knitting Club
+      p.joke-end Complete Joke.
+      p.mission.
+        We don&rsquo;t develop for the money, power, fame, or codebabes.
+        We do it <strong> For the Badge</strong>.
+        <br>
+        It all started because of an obsession with two words: &ldquo;build passing&rdquo;.
+        <br>
+        It all ended with this: <em>badges, for badges&rsquo; sake.</em>
+      img.face(src='images/face.svg')
+
+  section.badges
+    +featured-badge("fuck-it-ship-it", "navy")
+    +featured-badge("powered-by-electricity", "white")
+    +featured-badge("gluten-free", "white")
+    +featured-badge("oooo-kill-em", "navy")
+    +featured-badge("built-with-love", "white")
+    +featured-badge("uses-html", "cyan")
+    +featured-badge("contains-cat-gifs", "royal")
+    +featured-badge("uses-badges", "white")
+    +featured-badge("compatibility-betamax", "white")
+    +featured-badge("made-with-crayons", "navy")

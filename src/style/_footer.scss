@@ -1,0 +1,83 @@
+hr {
+  @include size(100% 210px);
+  background-color: #CCCECF;
+  border: none;
+
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+}
+
+footer {
+  position: relative;
+  @include size(100% 210px);
+  padding-top: 85px;
+  background: url() #B7B9BB center -100px no-repeat;
+
+  @media only screen and (max-width: $mobile) {
+    height: 300px;
+  }
+
+  a {
+    color: #393D43;
+  }
+}
+
+.view-all {
+  display: block;
+  position: absolute;
+  top: -125px;
+  left: 50%;
+  @include hide-text;
+  @include size(143px 165px);
+  margin-left: -71px;
+  background: url("images/button-view-all.svg") center center no-repeat;
+
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+}
+
+.attr-company {
+  float: left;
+  display: block;
+  margin-top: 8px;
+  @include hide-text;
+  @include size(238px 17px);
+  background: url("images/attr-company.svg") center center no-repeat;
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 40px;
+  }
+}
+
+.attr-design,
+.attr-dev {
+  float: right;
+  clear: right;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2pt;
+  text-transform: uppercase;
+  color: white;
+
+  @media only screen and (max-width: $mobile) {
+    text-align: center;
+  }
+}
+
+.attr-design {
+  margin-bottom: 10px;
+}
+
+.attr-company,
+.attr-design,
+.attr-dev {
+  @media only screen and (max-width: $mobile) {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,158 @@
+.copy {
+  @include transition(all 0.25s);
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  @include size(120px 50px);
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1pt;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &::before,
+  &::after {
+    @include transition(all 0.25s);
+    display: block;
+    position: absolute;
+    left: 0;
+    @include size(100%);
+  }
+
+  &::before {
+    padding-top: 4px;
+  }
+
+  &::after {
+    content: "";
+    top: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+.imageurl {
+  &::before {
+    content: "Copy ImageURL";
+    top: 100%;
+  }
+
+  &.white {
+    &::after {
+      background-image: url("images/icons/icon-imageurl-white.svg");
+    }
+  }
+
+  &.cyan {
+    &::after {
+      background-image: url("images/icons/icon-imageurl-cyan.svg");
+    }
+  }
+
+  &.royal {
+    &::after {
+      background-image: url("images/icons/icon-imageurl-royal.svg");
+    }
+  }
+
+  &.navy {
+    &::after {
+      background-image: url("images/icons/icon-imageurl-navy.svg");
+    }
+  }
+}
+
+.markdown {
+  &::before {
+    content: "Copy Markdown";
+    top: 100%;
+  }
+
+  &.white {
+    &::after {
+      background-image: url("images/icons/icon-markdown-white.svg");
+    }
+  }
+
+  &.cyan {
+    &::after {
+      background-image: url("images/icons/icon-markdown-cyan.svg");
+    }
+  }
+
+  &.royal {
+    &::after {
+      background-image: url("images/icons/icon-markdown-royal.svg");
+    }
+  }
+
+  &.navy {
+    &::after {
+      background-image: url("images/icons/icon-markdown-navy.svg");
+    }
+  }
+}
+
+.white {
+  &::before {
+    color: #F4F4F0;
+  }
+}
+
+.cyan {
+  &::before {
+    color: #26C7D5;
+  }
+}
+
+.royal {
+  &::before {
+    color: #009FEF;
+  }
+}
+
+.navy {
+  &::before {
+    color: #5593C9;
+  }
+}
+
+.zeroclipboard-is-hover {
+  &::before,
+  &::after {
+    @include transform(translateY(-100%));
+  }
+}
+
+.zeroclipboard-is-active {
+  &.white {
+    background: #F4F4F0;
+    opacity: 0.2;
+  }
+
+  &.cyan {
+    background: #26C7D5;
+    opacity: 0.2;
+  }
+
+  &.royal {
+    background: #009FEF;
+    opacity: 0.2;
+  }
+
+  &.navy {
+    background: #5593C9;
+    opacity: 0.2;
+  }
+}

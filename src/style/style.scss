@@ -1,0 +1,50 @@
+@import "normalize";
+@import "bourbon/bourbon";
+
+// colors
+
+$blue: #26C7D5;
+$orange: #E46C17;
+
+// media queries
+
+$mobile: 480px;
+
+// globals
+
+*,
+*:before,
+*:after {
+  @include box-sizing(border-box);
+  margin: 0;
+}
+
+body {
+  font: normal 14px "brandon-grotesque", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+// partials
+
+@import "layout";
+@import "header";
+@import "menu";
+@import "badge";
+@import "copy";
+@import "search-results";
+@import "inline-copy";
+@import "footer";
+
+@import "404";
+@import "about";

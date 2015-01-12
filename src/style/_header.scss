@@ -1,0 +1,142 @@
+header {
+  position: relative;
+  height: 420px;
+  padding: 150px 0 80px;
+  background-color: $blue;
+  text-align: center;
+}
+
+.mark,
+.logo,
+.tagline {
+  display: block;
+  margin: 0 auto;
+  @include hide-text;
+}
+
+.mark {
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  bottom: -21px;
+  @include size(77px 89px);
+  margin-left: -38px;
+  background: url("images/mark.svg") center center no-repeat;
+}
+
+.logo {
+  @include size(619px 47px);
+  margin-bottom: 40px;
+  background: url("images/logo.svg") center center no-repeat;
+
+  @media only screen and (max-width: $mobile) {
+    @include size(280px 21px);
+    background-size: 280px 21px;
+  }
+}
+
+.tagline {
+  @include size(475px 19px);
+  margin-bottom: 20px;
+  background: url("images/tagline.svg") center center no-repeat;
+
+  @media only screen and (max-width: $mobile) {
+    @include size(240px 35px);
+    margin-bottom: 30px;
+    background-image: url("images/tagline-mobile.svg");
+    background-size: 240px 35px;
+  }
+}
+
+.down {
+  position: relative;
+  display: block;
+  @include hide-text;
+  @include size(26px 33px);
+  margin: 0 auto;
+
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    @include size(26px 13px);
+    background: url("images/down.svg") center center no-repeat;
+  }
+
+  &::before {
+    @include animation(arrowBefore 1.0s ease-in-out infinite);
+    top: 11px;
+  }
+
+  &::after {
+    @include animation(arrowAfter 1.0s ease-in-out infinite);
+    @include animation-delay(0.125s);
+    top: 13px;
+  }
+}
+
+.contribute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  @include size(160px);
+  @include hide-text;
+  background: url("images/contribute.svg") center center no-repeat;
+
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+}
+
+@include keyframes(arrowBefore) {
+  0% {
+    @include transform(translateY(3px));
+  }
+
+  50% {
+    @include transform(translateY(6px));
+  }
+
+  100% {
+    @include transform(translateY(3px));
+  }
+}
+
+@include keyframes(arrowAfter) {
+  0% {
+    @include transform(translateY(14px));
+  }
+
+  50% {
+    @include transform(translateY(17px));
+  }
+
+  100% {
+    @include transform(translateY(14px));
+  }
+}
+
+.mobile-about {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include size(100% 40px);
+  padding-top: 10px;
+  background-color: #393D43;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+
+  @media only screen and (max-width: $mobile) {
+    display: block;
+  }
+}

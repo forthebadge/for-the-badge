@@ -1,40 +1,66 @@
-var gulp = require('gulp');
-var concat = require('gulp-concat');
-var cssmin = require('gulp-cssmin');
-var svgmin = require('gulp-svgmin');
-var uglify = require('gulp-uglify');
-var shell = require('gulp-shell');
+'use strict';
 
-gulp.task('sass', shell.task(['sass public/style/style.scss public/style.css', 'rm public/*.map']));
+var fs = require('fs');
+var gulp = require('gulp');
+var p = require('gulp-load-plugins')();
+
+var handle = function(err) {
+  console.log(err); this.emit('end');
+};
+
+gulp.task('server', function() {
+  return p.connect.server({
+    root: 'dist',
+    port: 8000,
+    livereload: true
+  });
+});
+
+gulp.task('jade', function() {
+  var locals = {badges: fs.readdirSync('./src/images/badges')};
+  return gulp.src('src/views/*.jade')
+    .pipe(p.jade({locals: locals}))
+    .on('error', handle)
+    .pipe(gulp.dest('dist/'))
+    .pipe(p.connect.reload());
+});
+
+gulp.task('sass', function() {
+  return gulp.src('src/style/style.scss')
+    .pipe(p.sass({outputStyle: 'compressed'}))
+    .on('error', handle)
+    .pipe(gulp.dest('dist/'))
+    .pipe(p.connect.reload());
+});
 
 gulp.task('scripts', function() {
-  gulp.src('./public/scripts/*.js')
-    .pipe(uglify())
-    .pipe(concat('main.js'))
-    .pipe(gulp.dest('./public'));
+  return gulp.src('src/scripts/**/*.js')
+    .pipe(p.concat('main.js'))
+    .on('error', handle)
+    .pipe(p.uglify())
+    .on('error', handle)
+    .pipe(gulp.dest('dist/'))
+    .pipe(p.connect.reload());
 });
 
-gulp.task('css', function() {
-  gulp.src('./public/style.css')
-    .pipe(cssmin())
-    .pipe(gulp.dest('./public'));
+gulp.task('images', function() {
+  return gulp.src('src/images/**/*')
+    .pipe(p.imagemin())
+    .on('error', handle)
+    .pipe(gulp.dest('dist/images'))
+    .pipe(p.connect.reload());
 });
 
-gulp.task('svg', function() {
-  gulp.src('./public/badges/*.svg')
-    .pipe(svgmin())
-    .pipe(gulp.dest('./public/badges'));
-
-  gulp.src('./public/images/*.svg')
-    .pipe(svgmin())
-    .pipe(gulp.dest('./public/images'));
-
-  gulp.src('./generator/minTemp.svg')
-    .pipe(svgmin())
-    .on('error', function(e) {console.log(e);})
-    .pipe(gulp.dest('./generator'));
+gulp.task('swf', function() {
+  return gulp.src('src/scripts/*.swf')
+    .pipe(gulp.dest('dist'));
 });
 
+gulp.task('watch', function() {
+  gulp.watch('src/views/**/*.jade', ['jade']);
+  gulp.watch('src/style/**/*.scss', ['sass']);
+  gulp.watch('src/scripts/**/*.js', ['scripts']);
+  gulp.watch('src/images/**/*', ['images']);
+});
 
-
-gulp.task('build', ['sass', 'scripts', 'css']);
+gulp.task('default', ['server', 'jade', 'sass', 'scripts', 'images', 'swf', 'watch']);

@@ -1,0 +1,6 @@
+mixin featured-badge(name, color)
+  .badge
+    .container
+      img(src="images/featured/featured-#{name}.svg")
+      a.copy.imageurl(class="#{color}" data-clipboard-text="http://forthebadge.com/images/badges/#{name}.svg")
+      a.copy.markdown(class="#{color}" data-clipboard-text="[![forthebadge](http://forthebadge.com/images/badges/#{name}.svg)](http://forthebadge.com)")
