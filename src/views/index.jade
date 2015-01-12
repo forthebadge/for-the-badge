@@ -6,25 +6,11 @@ html(lang="en")
 
       //- Header
       header
-        .container
-          p.tagline Badges for the sake of Badges
-          h1.logo For the Badge
-          a.down
-            p.top
-            p.bottom
-          a.mark Mark
-          a.contribute(href="https://github.com/BraveUX/forthebadge", target="_blank") Contribute
+        include ./includes/_header.jade
 
       //- Menu
       section.menu
-        .container
-          .search
-            label.search-toggle search
-            input.search-input(type="search", placeholder="Start typing...")
-          ul.filters
-            li: a.view-all-toggle(href="#") View all
-            li: a.about-toggle(href="#") About
-            li: a(href="http://www.twitter.com/forthebadge" target="_blank") Twitter
+        include ./includes/_menu.jade
 
       //- Main
       main.home
@@ -47,3 +33,5 @@ html(lang="en")
               <br>
               It all ended with this: <em>badges, for badges&rsquo; sake.</em>
             img.face(src='images/face.svg')
+
+    include ./_scripts.jade

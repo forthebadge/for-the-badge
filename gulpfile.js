@@ -17,7 +17,7 @@ gulp.task('server', function() {
 
 gulp.task('jade', function() {
   return gulp.src('src/views/*.jade')
-    .pipe(p.jade())
+    .pipe(p.jade({pretty: true}))
     .on('error', handle)
     .pipe(gulp.dest('dist/'))
     .pipe(p.connect.reload());
