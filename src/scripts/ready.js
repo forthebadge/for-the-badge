@@ -1,3 +1,5 @@
+'use strict';
+
 $(document).ready(function() {
   initSearch();
   initAbout();
@@ -13,7 +15,6 @@ function initSearch() {
   var menu = $('.menu');
 
   var search = $('.search');
-  var searchToggle = $('.search-toggle');
   var searchInput = $('.search-input');
   var searchResults = $('.search-results');
 
@@ -49,7 +50,6 @@ function initSearch() {
 
 	// cache vars
 	var searchText;
-	var searchSplit;
 	var searchItems = $('.search-list li');
 
 	$('.search-input').keyup(function() {
@@ -59,7 +59,7 @@ function initSearch() {
   	// remove match/not-match classes
   	searchItems.removeAttr('class');
 
-  	if(searchText != '') {
+  	if(searchText !== '') {
     	// find matches
       $('.search-list li[data-search*="' + searchText + '"]').addClass('match');
 

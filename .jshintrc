@@ -9,6 +9,7 @@
   "noarg": true,
   "undef": true,
   "unused": "vars",
-  "strict": true
+  "strict": true,
+  "jquery": true
 }
 
