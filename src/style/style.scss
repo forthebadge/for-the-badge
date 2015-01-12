@@ -1,14 +1,11 @@
-@import "normalize";
-@import "bourbon/bourbon";
-
-// colors
-
 $blue: #26C7D5;
 $orange: #E46C17;
 
-// media queries
-
 $mobile: 480px;
+
+@import "normalize";
+@import "bourbon/bourbon";
+@import "mixins";
 
 // globals
 
