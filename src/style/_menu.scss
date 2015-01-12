@@ -19,7 +19,7 @@
 
   &.expanded {
     label {
-      background-image: url('images/icon-close.svg');
+      background-image: url('images/icons/icon-close.svg');
     }
 
     input {
@@ -34,7 +34,7 @@
     display: block;
     @include size(22px);
     margin: 40px 0 38px 0;
-    background-image: url('images/icon-search.svg');
+    background-image: url('images/icons/icon-search.svg');
     background-position: center center;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -81,7 +81,7 @@
         display: block;
         @include hide-text;
         @include size(25px 20px);
-        background: url('images/icon-twitter.svg') center center no-repeat;
+        background: url('images/icons/icon-twitter.svg') center center no-repeat;
       }
     }
   }

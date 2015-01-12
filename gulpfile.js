@@ -19,7 +19,7 @@ gulp.task('server', function() {
 gulp.task('jade', function() {
   var locals = {badges: fs.readdirSync('./src/images/badges')};
   return gulp.src('src/views/*.jade')
-    .pipe(p.jade({pretty: true, locals: locals}))
+    .pipe(p.jade({locals: locals}))
     .on('error', handle)
     .pipe(gulp.dest('dist/'))
     .pipe(p.connect.reload());
@@ -51,6 +51,11 @@ gulp.task('images', function() {
     .pipe(p.connect.reload());
 });
 
+gulp.task('swf', function() {
+  return gulp.src('src/scripts/*.swf')
+    .pipe(gulp.dest('dist'));
+});
+
 gulp.task('watch', function() {
   gulp.watch('src/views/**/*.jade', ['jade']);
   gulp.watch('src/style/**/*.scss', ['sass']);
@@ -58,4 +63,4 @@ gulp.task('watch', function() {
   gulp.watch('src/images/**/*', ['images']);
 });
 
-gulp.task('default', ['server', 'jade', 'sass', 'scripts', 'images', 'watch']);
+gulp.task('default', ['server', 'jade', 'sass', 'scripts', 'images', 'swf', 'watch']);

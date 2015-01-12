@@ -93,7 +93,7 @@ function initViewAll() {
 }
 
 function initCopy() {
-  ZeroClipboard.config({ swfPath: 'scripts/ZeroClipboard.swf' });
+  ZeroClipboard.config({ swfPath: './ZeroClipboard.swf' });
   var clientCopy = new ZeroClipboard($('.copy'));
   var clientInline = new ZeroClipboard($('.inline-copy'));
 }
