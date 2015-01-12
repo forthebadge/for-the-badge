@@ -17,8 +17,8 @@ header {
 .mark {
   z-index: 10;
   position: absolute;
-  bottom: -21px;
   left: 50%;
+  bottom: -21px;
   @include size(77px 89px);
   margin-left: -38px;
   background: url("images/mark.svg") center center no-repeat;
@@ -71,7 +71,7 @@ header {
 
   &::before {
     @include animation(arrowBefore 1.0s ease-in-out infinite);
-    top: 0;
+    top: 11px;
   }
 
   &::after {
@@ -96,29 +96,29 @@ header {
 
 @include keyframes(arrowBefore) {
   0% {
-    top: 3px;
+    @include transform(translateY(3px));
   }
 
   50% {
-    top: 6px;
+    @include transform(translateY(6px));
   }
 
   100% {
-    top: 3px;
+    @include transform(translateY(3px));
   }
 }
 
 @include keyframes(arrowAfter) {
   0% {
-    top: 14px;
+    @include transform(translateY(14px));
   }
 
   50% {
-    top: 17px;
+    @include transform(translateY(17px));
   }
 
   100% {
-    top: 14px;
+    @include transform(translateY(14px));
   }
 }
 
