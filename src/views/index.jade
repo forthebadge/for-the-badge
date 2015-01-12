@@ -1,6 +1,6 @@
 doctype html
 html(lang="en")
-  include ./_header.jade
+  include ./includes/_header.jade
   body
     .wrapper
 
@@ -15,6 +15,13 @@ html(lang="en")
       //- Main
       main.home
         section.search-results
+          ul.search-list
+            each item in badges
+              li(data-search="#{item}")
+                img(src="#{item}")
+                a.inline-copy.markdown(data-clipboard-text="[![forthebadge](http://forthebadge.com/images/badges/#{item})](http://forthebadge.com)")
+                a.inline-copy.imageurl(data-clipboard-text="http://forthebadge.com/images/badges/#{item}")
+
         section.about
           .container
             p.about-heading About
@@ -34,4 +41,8 @@ html(lang="en")
               It all ended with this: <em>badges, for badges&rsquo; sake.</em>
             img.face(src='images/face.svg')
 
-    include ./_scripts.jade
+    include ./includes/_featured.jade
+
+
+
+    include ./includes/_scripts.jade

@@ -1,0 +1,18 @@
+mixin featured-badge(name, color)
+  .badge
+    .container
+      img(src="images/featured/featured-#{name}.svg")
+      a.copy.imageurl(class="#{color}" data-clipboard-text="http://forthebadge.com/images/badges/#{name}.svg")
+      a.copy.markdown(class="#{color}" data-clipboard-text="[![forthebadge](http://forthebadge.com/images/badges/#{name}.svg)](http://forthebadge.com)")
+
+section.badges
+  + featured-badge("fuck-it-ship-it", "navy")
+  +featured-badge("powered-by-electricity", "white")
+  +featured-badge("gluten-free", "white")
+  +featured-badge("oooo-kill-em", "navy")
+  +featured-badge("built-with-love", "white")
+  +featured-badge("uses-html", "cyan")
+  +featured-badge("contains-cat-gifs", "royal")
+  +featured-badge("uses-badges", "white")
+  +featured-badge("compatibility-betamax", "white")
+  +featured-badge("made-with-crayons", "navy")

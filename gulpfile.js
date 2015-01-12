@@ -1,5 +1,6 @@
 'use strict';
 
+var fs = require('fs');
 var gulp = require('gulp');
 var p = require('gulp-load-plugins')();
 
@@ -16,8 +17,9 @@ gulp.task('server', function() {
 });
 
 gulp.task('jade', function() {
+  var locals = {badges: fs.readdirSync('./src/images/badges')};
   return gulp.src('src/views/*.jade')
-    .pipe(p.jade({pretty: true}))
+    .pipe(p.jade({pretty: true, locals: locals}))
     .on('error', handle)
     .pipe(gulp.dest('dist/'))
     .pipe(p.connect.reload());
