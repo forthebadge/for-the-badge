@@ -1,0 +1,49 @@
+doctype html
+html(lang="en")
+  include ./_header.jade
+  body
+    .wrapper
+
+      //- Header
+      header
+        .container
+          p.tagline Badges for the sake of Badges
+          h1.logo For the Badge
+          a.down
+            p.top
+            p.bottom
+          a.mark Mark
+          a.contribute(href="https://github.com/BraveUX/forthebadge", target="_blank") Contribute
+
+      //- Menu
+      section.menu
+        .container
+          .search
+            label.search-toggle search
+            input.search-input(type="search", placeholder="Start typing...")
+          ul.filters
+            li: a.view-all-toggle(href="#") View all
+            li: a.about-toggle(href="#") About
+            li: a(href="http://www.twitter.com/forthebadge" target="_blank") Twitter
+
+      //- Main
+      main.home
+        section.search-results
+        section.about
+          .container
+            p.about-heading About
+            p.joke-start For the Badge is a
+            p.joke-strikethrough Grassroots Movement
+            p.joke-strikethrough Scientific Endeavor
+            p.joke-strikethrough Humanitarian Society
+            p.joke-strikethrough Literary Masterpiece
+            p.joke-strikethrough Knitting Club
+            p.joke-end Complete Joke.
+            p.mission.
+              We don&rsquo;t develop for the money, power, fame, or codebabes.
+              We do it <strong> For the Badge</strong>.
+              <br>
+              It all started because of an obsession with two words: &ldquo;build passing&rdquo;.
+              <br>
+              It all ended with this: <em>badges, for badges&rsquo; sake.</em>
+            img.face(src='images/face.svg')

@@ -16,7 +16,7 @@ gulp.task('server', function() {
 });
 
 gulp.task('jade', function() {
-  return gulp.src('src/views/**/*.jade')
+  return gulp.src('src/views/*.jade')
     .pipe(p.jade())
     .on('error', handle)
     .pipe(gulp.dest('dist/'))
