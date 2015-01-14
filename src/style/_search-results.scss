@@ -35,3 +35,7 @@
     display: block;
   }
 }
+
+.view-all-badge {
+  @include size(auto 35px);
+}

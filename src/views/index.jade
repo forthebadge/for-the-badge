@@ -31,7 +31,7 @@ block main
     ul.search-list
       each item in badges
         li(data-search="#{item}")
-          img(src="images/badges/#{item}")
+          img.view-all-badge(src="images/badges/#{item}")
           a.inline-copy.markdown(data-clipboard-text="[![forthebadge](http://forthebadge.com/images/badges/#{item})](http://forthebadge.com)")
           a.inline-copy.imageurl(data-clipboard-text="http://forthebadge.com/images/badges/#{item}")
 
