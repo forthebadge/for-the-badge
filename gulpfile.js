@@ -56,6 +56,7 @@ gulp.task('swf', function() {
     .pipe(gulp.dest('dist'));
 });
 
+
 gulp.task('watch', function() {
   gulp.watch('src/views/**/*.jade', ['jade']);
   gulp.watch('src/style/**/*.scss', ['sass']);
