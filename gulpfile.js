@@ -56,6 +56,12 @@ gulp.task('swf', function() {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('badges', function() {
+  return gulp.src('src/images/badges/**/*')
+    .pipe(p.imagemin())
+    .on('error', handle)
+    .pipe(gulp.dest('dist/badges'));
+});
 
 gulp.task('watch', function() {
   gulp.watch('src/views/**/*.jade', ['jade']);
@@ -65,3 +71,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['server', 'jade', 'sass', 'scripts', 'images', 'swf', 'watch']);
+gulp.task('build', ['jade', 'sass', 'scripts', 'images', 'swf', 'badges']);
