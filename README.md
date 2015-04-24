@@ -102,6 +102,16 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 
 * HTML2
 
+###### Creative Commons
+
+* CC-BY
+* CC-NC
+* CC-NC-SA
+* CC-BY-ND
+* CC-SA
+* CC-BY-ND
+* CC0
+
 ###### Miscellaneous
 
 * Fuck It Ship It
