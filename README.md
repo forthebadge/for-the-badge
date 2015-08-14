@@ -102,9 +102,11 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 ###### Validated
 
 * HTML2
+
 ###### Dependencies
+
 * Whiskey
-* 
+
 ###### Miscellaneous
 
 * Fuck It Ship It
