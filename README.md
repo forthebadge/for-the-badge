@@ -97,11 +97,14 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Git
 * HTML
 * JS
+* H9RBS.js
 
 ###### Validated
 
 * HTML2
-
+###### Dependencies
+* Whiskey
+* 
 ###### Miscellaneous
 
 * Fuck It Ship It
