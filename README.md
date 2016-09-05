@@ -37,6 +37,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Love \*
 * Ruby \*
 * Swag
+* Resentment
 
 ###### Certified By
 
