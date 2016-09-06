@@ -70,9 +70,9 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 
 ###### Fo
 
+* Real
 * Shizzle
 * Sho
-* Real
 
 ###### For
 
@@ -81,6 +81,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 ###### Made With
 
 * Crayons \*
+* Python \*
 * Ruby \*
 
 ###### Powered By
@@ -90,10 +91,10 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Electricity \*
 * Jeff's Keyboard \*
 * Netflix
+* Responsibility
 * Oxygen \*
 * Water \*
 * The Watergate
-* Responsibility
 
 ###### Uses
 
