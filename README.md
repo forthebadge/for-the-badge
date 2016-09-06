@@ -44,6 +44,15 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Swag
 * Wordpress
 
+###### Creative Commons
+
+* Creative Commons 0
+* Creative Commons BY-ND
+* Creative Commons BY
+* Creative Commons NC-SA
+* Creative Commons NC
+* Creative Commons SA
+
 ###### Certified By
 
 * Cousin Terio
