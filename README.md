@@ -17,7 +17,7 @@ We don't develop for the money, power, fame, or codebabes. We do it **For the Ba
 
 Edit the list below and submit a pull request.  Add to the appropriate category if possible. A \* indicates a custom icon.
 
-**Last updated:** `January 14, 2015`.
+**Last updated:** `September 6, 2016`.
 
 ###### Ages
 
@@ -36,8 +36,8 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 
 * Science
 * Love \*
-* Ruby \*
 * Swag
+* Wordpress
 
 ###### Certified By
 
@@ -81,6 +81,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 ###### Made With
 
 * Crayons \*
+* Ruby \*
 
 ###### Powered By
 
