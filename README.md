@@ -98,6 +98,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Crayons \*
 * Python \*
 * Ruby \*
+* Swift \*
 
 ###### Powered By
 
