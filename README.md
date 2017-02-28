@@ -108,6 +108,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 
 * Case Western Reserve
 * Comcast
+* Discord
 * Electricity \*
 * Jeff's Keyboard \*
 * Netflix
