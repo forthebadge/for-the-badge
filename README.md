@@ -27,9 +27,8 @@ If submitting a badge svg, please abide by the following guidelines
   * **SVG's must have all text and icons converted into outlines to ensure it displays properly for all users.**
   * Use color's we've already used or choose something similarly appropriate.
 
-**Last updated:** `March 16, 2017`.
-
 ### Badge List
+**Last updated:** `March 16, 2017`.
 
 ###### Ages
 
