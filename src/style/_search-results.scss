@@ -2,11 +2,10 @@
   @include clearfix;
   overflow: hidden;
   @include transition(all 1.0s ease);
-  height: 0;
+  max-height: 0;
 
   &.expanded {
-    height: 3150px;
-    padding: 20px 0 50px 0;
+    margin: 20px 0 50px 0;
   }
 }
 
@@ -22,11 +21,11 @@
     position: relative;
     @include transition(all 0.5s ease-in-out);
     @include clearfix;
-    @include size(100% 35px);
-    margin-bottom: 10px;
+    margin-bottom: 9px;
+    height: 35px;
 
     &.not-match {
-      margin-bottom: 0px;
+      margin-bottom: 0;
       height: 0;
     }
   }

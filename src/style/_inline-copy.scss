@@ -9,6 +9,15 @@
   background-position: center center;
   background-repeat: no-repeat;
   cursor: pointer;
+  transition: background-color 200ms ease;
+
+  &:hover {
+    background-color: #292C30;
+  }
+
+  &:active {
+    background-color: #535A60;
+  }
 
   &.imageurl {
     background-image: url("images/icons/icon-imageurl-white.svg");

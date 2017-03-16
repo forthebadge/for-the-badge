@@ -3,7 +3,7 @@
   overflow: hidden;
   position: relative;
   display: inline-block;
-  @include size(120px 50px);
+  @include size(100px 50px);
   margin-right: 25px;
   font-weight: bold;
   font-size: 15px;
@@ -19,6 +19,10 @@
 
   &:last-child {
     margin-right: 0;
+  }
+
+  &:hover {
+    background-color: rgba(0,0,0,0.1);
   }
 
   &::before,
