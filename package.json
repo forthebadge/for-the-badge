@@ -27,5 +27,7 @@
     "gulp-uglify": "^1.5.4",
     "node-sass": "^3.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "clipboard": "^1.6.1"
+  }
 }

@@ -28,9 +28,13 @@ function initSearch() {
         // only on first callback
         if(firstCallback) {
           search.toggleClass('expanded');
+          // give container max-size based on content
+          searchResults.css( 'max-height', searchResults.get(0).scrollHeight );
           searchResults.toggleClass('expanded');
           homepageBadges.addClass('collapsed');
           searchInput.focus();
+
+
 
           firstCallback = false;
           searchClosed = false;
@@ -40,6 +44,8 @@ function initSearch() {
     // if search is open
     else {
       search.toggleClass('expanded');
+      // set container max-height back to 0
+      searchResults.css( 'max-height', 0 );
       searchResults.removeClass('expanded');
       homepageBadges.toggleClass('collapsed');
 
@@ -93,9 +99,8 @@ function initViewAll() {
 }
 
 function initCopy() {
-  ZeroClipboard.config({ swfPath: './ZeroClipboard.swf' });
-  var clientCopy = new ZeroClipboard($('.copy'));
-  var clientInline = new ZeroClipboard($('.inline-copy'));
+  var clientCopy = new Clipboard('.copy');
+  var clientInline = new Clipboard('.inline-copy');
 }
 
 function initMobile() {
