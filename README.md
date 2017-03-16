@@ -1,4 +1,4 @@
-# For the Badge
+﻿# For the Badge
 
 [![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com)
@@ -43,6 +43,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Resentment
 * Swag
 * Wordpress
+* Gramma's recipe
 
 ###### Creative Commons
 
@@ -58,6 +59,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Cousin Terio
 * Snoop Lion
 * Dr. Steve Bruhle
+* Elijah Wood
 
 ###### Compatibility
 
@@ -82,6 +84,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 ###### Designed In
 
 * Microsoft Paint
+* Etch a Sketch
 
 ###### Fo
 
@@ -100,6 +103,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Ruby \*
 * Swift \*
 * C#
+* Vue
 
 ###### Powered By
 
@@ -140,3 +144,5 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Mom Made Pizza Rolls
 * Reading Level 6th Grade
 * Winter Is Coming
+* 60% of the time Works everytime
+* You Didn't Ask For This
