@@ -14,7 +14,7 @@ We don't develop for the money, power, fame, or codebabes. We do it **For the Ba
 # All Badges
 
 ## MAJOR UPDATE 3/16/2017
-All badges have been updated to make use of **FREE** fonts rather than the paid ones we had going on before. As such, you guys are encourage to design badges of your own and submit them with your pull requests. You can read up on some of the guidelines for submitting badges below. As always, keep it fun!
+All badges have been updated to make use of **FREE** fonts rather than the paid ones we had going on before. As such, you guys are encouraged to design badges of your own and submit them with your pull requests. You can read up on some of the guidelines for submitting badges below. As always, keep it fun!
 
 ### Contributing
 Edit the list below and submit a pull request. Add to the appropriate category if possible. A \* indicates a custom icon.
