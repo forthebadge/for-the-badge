@@ -1,4 +1,4 @@
-# For the Badge
+﻿# For the Badge
 
 [![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com)
@@ -102,6 +102,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Python \*
 * Ruby \*
 * Swift \*
+* Vue
 
 ###### Powered By
 
