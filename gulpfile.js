@@ -51,11 +51,6 @@ gulp.task('images', function() {
     .pipe(p.connect.reload());
 });
 
-gulp.task('swf', function() {
-  return gulp.src('src/scripts/*.swf')
-    .pipe(gulp.dest('dist'));
-});
-
 gulp.task('favicon', function() {
   return gulp.src('src/images/favicon/*')
     .pipe(gulp.dest('dist'));
@@ -75,5 +70,5 @@ gulp.task('watch', function() {
   gulp.watch('src/images/**/*', ['images']);
 });
 
-gulp.task('default', ['server', 'jade', 'sass', 'scripts', 'images', 'swf', 'favicon', 'watch']);
-gulp.task('build', ['jade', 'sass', 'scripts', 'images', 'swf', 'favicon', 'badges']);
+gulp.task('default', ['server', 'jade', 'sass', 'scripts', 'images', 'favicon', 'watch']);
+gulp.task('build', ['jade', 'sass', 'scripts', 'images', 'favicon', 'badges']);

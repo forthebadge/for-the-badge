@@ -20,8 +20,8 @@ block menu
       label.search-toggle Search
       input.search-input(type="search", placeholder="Start typing...")
     ul.filters
-      li: a.view-all-toggle(href="#") View All
-      li: a.about-toggle(href="#") About
+      li: a.view-all-toggle(href="#" onClick="return false;") View All
+      li: a.about-toggle(href="#" onClick="return false;") About
       li: a(href="http://www.twitter.com/brave_ux", target="_blank") Twitter
 
 //- MAIN
@@ -32,8 +32,8 @@ block main
       each item in badges
         li(data-search="#{item}")
           img.view-all-badge(src="images/badges/#{item}")
-          a.inline-copy.markdown(data-clipboard-text="[![forthebadge](http://forthebadge.com/images/badges/#{item})](http://forthebadge.com)")
-          a.inline-copy.imageurl(data-clipboard-text="http://forthebadge.com/images/badges/#{item}")
+          a.inline-copy.markdown(href="#" onClick="return false;" data-clipboard-text="[![forthebadge](http://forthebadge.com/images/badges/#{item})](http://forthebadge.com)")
+          a.inline-copy.imageurl(href="#" onClick="return false;" data-clipboard-text="http://forthebadge.com/images/badges/#{item}")
 
   section.about
     .container

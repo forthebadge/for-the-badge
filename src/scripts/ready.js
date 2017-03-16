@@ -34,8 +34,6 @@ function initSearch() {
           homepageBadges.addClass('collapsed');
           searchInput.focus();
 
-
-
           firstCallback = false;
           searchClosed = false;
         }

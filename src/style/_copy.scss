@@ -3,7 +3,7 @@
   overflow: hidden;
   position: relative;
   display: inline-block;
-  @include size(100px 50px);
+  @include size(125px 50px);
   margin-right: 25px;
   font-weight: bold;
   font-size: 15px;
@@ -132,31 +132,9 @@
   }
 }
 
-.zeroclipboard-is-hover {
-  &::before,
-  &::after {
+.copy {
+  &:hover::before,
+  &:hover::after {
     @include transform(translateY(-100%));
-  }
-}
-
-.zeroclipboard-is-active {
-  &.white {
-    background: #F4F4F0;
-    opacity: 0.2;
-  }
-
-  &.cyan {
-    background: #26C7D5;
-    opacity: 0.2;
-  }
-
-  &.royal {
-    background: #009FEF;
-    opacity: 0.2;
-  }
-
-  &.navy {
-    background: #5593C9;
-    opacity: 0.2;
   }
 }
