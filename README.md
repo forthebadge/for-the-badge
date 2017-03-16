@@ -1,4 +1,4 @@
-# For the Badge
+﻿# For the Badge
 
 [![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com)
@@ -55,6 +55,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Resentment
 * Swag
 * Wordpress
+* Gramma's recipe
 
 ###### Creative Commons
 
@@ -71,6 +72,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Snoop Lion
 * Dr. Steve Bruhle
 * YourBoySerge
+* Elijah Wood
 
 ###### Compatibility
 
@@ -95,6 +97,7 @@ If submitting a badge svg, please abide by the following guidelines
 ###### Designed In
 
 * Microsoft Paint
+* Etch a Sketch
 
 ###### Fo
 
@@ -112,6 +115,8 @@ If submitting a badge svg, please abide by the following guidelines
 * Python \*
 * Ruby \*
 * Swift \*
+* C#
+* Vue
 
 ###### Powered By
 
@@ -151,3 +156,5 @@ If submitting a badge svg, please abide by the following guidelines
 * Mom Made Pizza Rolls
 * Reading Level 6th Grade
 * Winter Is Coming
+* 60% of the time Works everytime
+* You Didn't Ask For This
