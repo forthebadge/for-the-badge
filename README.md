@@ -137,6 +137,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Git
 * HTML
 * JS
+* H9RBS.js
 
 ###### Validated
 
@@ -156,5 +157,5 @@ If submitting a badge svg, please abide by the following guidelines
 * Mom Made Pizza Rolls
 * Reading Level 6th Grade
 * Winter Is Coming
-* 60% of the time Works everytime
+* 60% of the Time Works Every Time
 * You Didn't Ask For This
