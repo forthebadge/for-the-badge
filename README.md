@@ -22,6 +22,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 ###### Ages
 
 * 12+
+* 18+
 * 20-30
 
 ###### Built By
@@ -43,6 +44,8 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Resentment
 * Swag
 * Wordpress
+* Grav
+* Symphony CMS
 
 ###### Creative Commons
 
@@ -92,6 +95,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 ###### For
 
 * Sharks
+* You
 
 ###### Made With
 
@@ -104,6 +108,7 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 
 * Case Western Reserve
 * Comcast
+* Discord
 * Electricity \*
 * Jeff's Keyboard \*
 * Netflix
@@ -119,13 +124,15 @@ Edit the list below and submit a pull request.  Add to the appropriate category 
 * Git
 * HTML
 * JS
-
+* Pug
+* Vue
 ###### Validated
 
-* HTML2
+* HTML5
 
 ###### Miscellaneous
 
+* Check it out
 * Fuck It Ship It
 * No Ragrets
 * Oooo Kill Em
