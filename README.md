@@ -33,6 +33,7 @@ If submitting a badge svg, please abide by the following guidelines
 ###### Ages
 
 * 12+
+* 18+
 * 20-30
 
 ###### Built By
@@ -48,7 +49,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Android \*
 
 ###### Built With
-
+* Grav
 * Science
 * Love \*
 * Resentment
@@ -107,6 +108,7 @@ If submitting a badge svg, please abide by the following guidelines
 ###### For
 
 * Sharks
+* You
 
 ###### Made With
 
@@ -116,6 +118,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Swift \*
 * C#
 * Vue
+* Pug
 
 ###### Powered By
 
@@ -129,6 +132,11 @@ If submitting a badge svg, please abide by the following guidelines
 * Water \*
 * The Watergate
 
+###### Approved By
+
+* Veridian Dynamics
+* George Costanza 
+
 ###### Uses
 
 * Badges
@@ -141,9 +149,11 @@ If submitting a badge svg, please abide by the following guidelines
 ###### Validated
 
 * HTML2
+* HTML5
 
 ###### Miscellaneous
 
+* Check it out
 * Fuck It Ship It
 * No Ragrets
 * Oooo Kill Em
@@ -158,3 +168,5 @@ If submitting a badge svg, please abide by the following guidelines
 * Winter Is Coming
 * 60% of the Time Works Every Time
 * You Didn't Ask For This
+* That's how they get you
+* It's not a lie if you believe it
