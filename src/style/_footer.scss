@@ -11,7 +11,7 @@ hr {
 footer {
   position: relative;
   @include size(100% 210px);
-  padding-top: 85px;
+  padding: 85px 2em;
   background: url() #B7B9BB center -100px no-repeat;
 
   @media only screen and (max-width: $mobile) {
