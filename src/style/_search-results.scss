@@ -15,6 +15,10 @@
   padding-left: 0;
   list-style: none;
 
+  .inline-copy {
+    display: block;
+  }
+
   li {
     position: relative;
     @include transition(all 0.5s ease-in-out);
@@ -25,11 +29,11 @@
     &.not-match {
       margin-bottom: 0;
       height: 0;
-    }
-  }
 
-  .inline-copy {
-    display: block;
+      .inline-copy {
+        height: 0;
+      }
+    }
   }
 }
 
