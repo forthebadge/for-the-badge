@@ -1,6 +1,5 @@
 .inline-copy {
   opacity: 1;
-  @include transition(opacity 0.5s ease);
   display: none;
   float: right;
   @include size(60px 35px);
@@ -9,7 +8,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   cursor: pointer;
-  transition: background-color 200ms ease;
+  transition: background-color 200ms ease, opacity 500ms ease, height 500ms ease;
 
   &:hover {
     background-color: #292C30;

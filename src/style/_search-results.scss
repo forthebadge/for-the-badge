@@ -21,7 +21,6 @@
   list-style: none;
 
   .inline-copy {
-    @include transition(all 0.5s ease-in-out);
     display: block;
     opacity: 1;
   }
