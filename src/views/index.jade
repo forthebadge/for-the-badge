@@ -32,8 +32,9 @@ block main
       each item in badges
         li(data-search="#{item}")
           img.view-all-badge(src="images/badges/#{item}")
-          a.inline-copy.markdown(href="#" onClick="return false;" data-clipboard-text="[![forthebadge](http://forthebadge.com/images/badges/#{item})](http://forthebadge.com)")
-          a.inline-copy.imageurl(href="#" onClick="return false;" data-clipboard-text="http://forthebadge.com/images/badges/#{item}")
+          div.view-all-copy
+            a.inline-copy.markdown(href="#" onClick="return false;" data-clipboard-text="[![forthebadge](http://forthebadge.com/images/badges/#{item})](http://forthebadge.com)")
+            a.inline-copy.imageurl(href="#" onClick="return false;" data-clipboard-text="http://forthebadge.com/images/badges/#{item}")
 
   section.about
     .container

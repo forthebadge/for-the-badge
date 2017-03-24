@@ -4,34 +4,46 @@
   @include transition(all 1.0s ease);
   max-height: 0;
 
+  @media only screen and (max-width: 650px) {
+    display: none;
+  }
+
   &.expanded {
     margin: 20px 0 50px 0;
   }
 }
 
 .search-list {
-  @include size(600px auto);
+  @include size(100% auto);
+  max-width: 600px;
   margin: 0 auto;
   padding-left: 0;
   list-style: none;
 
   .inline-copy {
+    @include transition(all 0.5s ease-in-out);
     display: block;
+    opacity: 1;
   }
 
   li {
+    display: flex;
     position: relative;
     @include transition(all 0.5s ease-in-out);
     @include clearfix;
     margin-bottom: 9px;
     height: 35px;
+    width: 100%;
+    opacity: 1;
 
     &.not-match {
       margin-bottom: 0;
       height: 0;
+      opacity: 0;
 
       .inline-copy {
         height: 0;
+        opacity: 0;
       }
     }
   }
@@ -39,4 +51,8 @@
 
 .view-all-badge {
   @include size(auto 35px);
+}
+
+.view-all-copy {
+  margin-left: auto;
 }
