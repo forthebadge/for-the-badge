@@ -29,7 +29,7 @@ header {
   margin-bottom: 40px;
   background: url("images/logo.svg") center center no-repeat;
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: 650px) {
     @include size(280px 21px);
     background-size: 280px 21px;
   }
@@ -40,7 +40,7 @@ header {
   margin-bottom: 20px;
   background: url("images/tagline.svg") center center no-repeat;
 
-  @media only screen and (max-width: $mobile) {
+  @media only screen and (max-width: 650px) {
     @include size(240px 35px);
     margin-bottom: 30px;
     background-image: url("images/tagline-mobile.svg");
