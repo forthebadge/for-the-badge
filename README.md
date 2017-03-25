@@ -136,6 +136,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 * Veridian Dynamics
 * George Costanza 
+* Shia LaBeouf
 
 ###### Uses
 
@@ -170,3 +171,6 @@ If submitting a badge svg, please abide by the following guidelines
 * You Didn't Ask For This
 * That's how they get you
 * It's not a lie if you believe it
+* Fake it till you make it
+* Shia surprise
+* NOT user friendly
