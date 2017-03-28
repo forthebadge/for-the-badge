@@ -174,3 +174,4 @@ If submitting a badge svg, please abide by the following guidelines
 * Fake it till you make it
 * Shia surprise
 * NOT user friendly
+* MOTO PENEKEKU!!!
