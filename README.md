@@ -151,6 +151,16 @@ If submitting a badge svg, please abide by the following guidelines
 * HTML2
 * HTML5
 
+###### Creative Commons
+
+* CC-BY
+* CC-NC
+* CC-NC-SA
+* CC-BY-ND
+* CC-SA
+* CC-BY-ND
+* CC0
+
 ###### Miscellaneous
 
 * Check it out
