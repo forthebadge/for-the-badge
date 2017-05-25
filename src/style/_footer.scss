@@ -39,9 +39,8 @@ footer {
 }
 
 .attr-company {
-  float: left;
   display: block;
-  margin-top: 8px;
+  margin: 8px auto;
   @include hide-text;
   @include size(238px 17px);
   background: url("images/attr-company.svg") center center no-repeat;
