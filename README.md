@@ -131,6 +131,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Oxygen \*
 * Water \*
 * The Watergate
+* Android \*
 
 ###### Approved By
 
