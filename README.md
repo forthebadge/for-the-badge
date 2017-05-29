@@ -151,6 +151,10 @@ If submitting a badge svg, please abide by the following guidelines
 * HTML2
 * HTML5
 
+###### Dependencies
+
+* Whiskey
+
 ###### Miscellaneous
 
 * Check it out
