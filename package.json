@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/BraveUX/forthebadge/issues"
   },
-  "homepage": "http://forthebadge.com",
+  "homepage": "https://forthebadge.com",
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-concat": "^2.4.3",
