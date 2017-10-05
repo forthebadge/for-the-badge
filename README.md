@@ -113,6 +113,7 @@ If submitting a badge svg, please abide by the following guidelines
 ###### Made With
 
 * Crayons \*
+* CFML
 * Python \*
 * Ruby \*
 * Swift \*
