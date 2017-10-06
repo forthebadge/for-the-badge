@@ -99,6 +99,16 @@ function initViewAll() {
 function initCopy() {
   var clientCopy = new Clipboard('.copy');
   var clientInline = new Clipboard('.inline-copy');
+
+  clientInline.on('success', function(e) {
+    e.trigger.classList.add('copied-inline')
+    e.clearSelection()
+  })
+
+  clientCopy.on('success', function(e) {
+    e.trigger.classList.add('copied')
+    e.clearSelection()
+  })
 }
 
 function initMobile() {
