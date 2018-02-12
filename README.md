@@ -137,6 +137,10 @@ If submitting a badge svg, please abide by the following guidelines
 * Veridian Dynamics
 * George Costanza 
 
+###### Supported By
+
+* Donald .J Trump 
+
 ###### Uses
 
 * Badges
