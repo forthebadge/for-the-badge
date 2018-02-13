@@ -11,7 +11,7 @@
   transition: background-color 200ms ease, opacity 500ms ease, height 500ms ease;
 
   &:hover {
-    background-color: #292C30;
+    background-color: rgba(#292C30, 0.75);
   }
 
   &:active {
@@ -25,5 +25,14 @@
 
   &.markdown {
     background-image: url("images/icons/icon-markdown-white.svg");
+  }
+
+  &:focus {
+    background-color: rgba(#292C30, 0.75);
+    border: 0;
+    outline: none;
+  }
+  &::-moz-focus-inner {
+      border: 0;
   }
 }

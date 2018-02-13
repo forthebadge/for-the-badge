@@ -1,13 +1,13 @@
 ﻿# For the Badge
 
-[![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
 
 We don't develop for the money, power, fame, or codebabes. We do it **For the Badge.** It all started because of an obsession with two words: [![Build Status](https://travis-ci.org/BraveUX/for-the-badge.svg)](https://travis-ci.org/BraveUX/for-the-badge). It all ended with this: _badges, for badges’ sake_.
 
 ## Usage
 
-1. Check out all the badges [here](http://forthebadge.com)!
+1. Check out all the badges [here](https://forthebadge.com)!
 2. Copy the image URL or markdown.
 3. Swag out your Github readme.
 
@@ -113,6 +113,7 @@ If submitting a badge svg, please abide by the following guidelines
 ###### Made With
 
 * Crayons \*
+* CFML
 * Python \*
 * Ruby \*
 * Swift \*
@@ -120,6 +121,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Vue
 * Pug
 * Javascript
+* Meteor
 
 ###### Powered By
 

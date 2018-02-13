@@ -15,19 +15,19 @@
   "bugs": {
     "url": "https://github.com/BraveUX/forthebadge/issues"
   },
-  "homepage": "http://forthebadge.com",
+  "homepage": "https://forthebadge.com",
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-concat": "^2.4.3",
-    "gulp-connect": "^2.3.1",
-    "gulp-imagemin": "^2.4.0",
-    "gulp-jade": "^0.10.0",
-    "gulp-load-plugins": "^0.8.1",
-    "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^1.5.4",
-    "node-sass": "^3.8.0"
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "node-sass": "^4.5.3"
   },
   "dependencies": {
-    "clipboard": "^1.6.1"
+    "clipboard": "^1.7.1"
   }
 }

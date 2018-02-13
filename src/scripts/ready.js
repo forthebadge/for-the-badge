@@ -23,54 +23,61 @@ function initSearch() {
 
   $('.search-toggle').click(function(e) {
     // if search is closed
-    if(searchClosed) {
-      $('html, body').animate({ scrollTop: menu.offset().top }, 500, function() {
-        // only on first callback
-        if(firstCallback) {
-          search.toggleClass('expanded');
-          // give container max-size based on content
-          searchResults.css( 'max-height', searchResults.get(0).scrollHeight );
-          searchResults.toggleClass('expanded');
-          homepageBadges.addClass('collapsed');
-          searchInput.focus();
+    if (searchClosed) {
+      $('html, body').animate(
+        { scrollTop: menu.offset().top },
+        500,
+        function() {
+          // only on first callback
+          if (firstCallback) {
+            search.toggleClass('expanded');
+            // give container max-size based on content
+            searchResults.css('max-height', searchResults.get(0).scrollHeight);
+            searchResults.toggleClass('expanded');
+            homepageBadges.addClass('collapsed');
+            searchInput.focus();
 
-          firstCallback = false;
-          searchClosed = false;
+            firstCallback = false;
+            searchClosed = false;
+          }
         }
-      });
-    }
-    // if search is open
-    else {
+      );
+    } else {
+      // if search is open
       search.toggleClass('expanded');
       // set container max-height back to 0
-      searchResults.css( 'max-height', 0 );
+      searchResults.css('max-height', 0);
       searchResults.removeClass('expanded');
       homepageBadges.toggleClass('collapsed');
 
       firstCallback = true;
       searchClosed = true;
     }
-	});
+  });
 
-	// cache vars
-	var searchText;
-	var searchItems = $('.search-list li');
+  // cache vars
+  var searchText;
+  var searchItems = $('.search-list li');
 
-	$('.search-input').keyup(function() {
-	  // get search text, all lowercase
-  	searchText = $(this).val().toLowerCase();
+  $('.search-input').keyup(function() {
+    // get search text, all lowercase
+    searchText = $(this)
+      .val()
+      .toLowerCase();
 
-  	// remove match/not-match classes
-  	searchItems.removeAttr('class');
+    // remove match/not-match classes
+    searchItems.removeAttr('class');
 
-  	if(searchText !== '') {
-    	// find matches
+    if (searchText !== '') {
+      // find matches
       $('.search-list li[data-search*="' + searchText + '"]').addClass('match');
 
       // find not-matches
-      $('.search-list li:not([data-search*="' + searchText + '"])').addClass('not-match');
-  	}
-	});
+      $('.search-list li:not([data-search*="' + searchText + '"])').addClass(
+        'not-match'
+      );
+    }
+  });
 }
 
 function initAbout() {
@@ -99,6 +106,22 @@ function initViewAll() {
 function initCopy() {
   var clientCopy = new Clipboard('.copy');
   var clientInline = new Clipboard('.inline-copy');
+
+  clientInline.on('success', function(e) {
+    e.trigger.classList.add('copied-inline');
+    e.clearSelection();
+    window.setTimeout(function() {
+      e.trigger.classList.remove('copied-inline'); // Reset back to default after 2s
+    }, 2000);
+  });
+
+  clientCopy.on('success', function(e) {
+    e.trigger.classList.add('copied');
+    e.clearSelection();
+    window.setTimeout(function() {
+      e.trigger.classList.remove('copied'); // Reset back to default after 2s
+    }, 2000);
+  });
 }
 
 function initMobile() {
