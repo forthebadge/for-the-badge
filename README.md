@@ -120,6 +120,7 @@ If submitting a badge svg, please abide by the following guidelines
 * C#
 * Vue
 * Pug
+* Javascript
 * Meteor
 
 ###### Powered By
@@ -137,7 +138,7 @@ If submitting a badge svg, please abide by the following guidelines
 ###### Approved By
 
 * Veridian Dynamics
-* George Costanza 
+* George Costanza
 
 ###### Uses
 
