@@ -14,20 +14,25 @@ We don't develop for the money, power, fame, or codebabes. We do it **For the Ba
 # All Badges
 
 ## MAJOR UPDATE 3/16/2017
+
 All badges have been updated to make use of **FREE** fonts rather than the paid ones we had going on before. As such, you guys are encouraged to design badges of your own and submit them with your pull requests. You can read up on some of the guidelines for submitting badges below. As always, keep it fun!
 
 ### Contributing
+
 Edit the list below and submit a pull request. Add to the appropriate category if possible. A \* indicates a custom icon.
 
 ### Guidelines for Getting a Badge SVG Approved
+
 If submitting a badge svg, please abide by the following guidelines
-  * First badge tagline uses the font [**Roboto Medium**](https://fonts.google.com/specimen/Roboto?selection.family=Roboto:500) with `220` character tracking (if using Adobe Illustrator).
-  * Second badge tagline uses the font [**Montserrat Extra-Bold**](https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:800) with `220` character tracking (if using Adobe Illustrator).
-  * There should always be `13px` padding on all sides of each tagline.
-  * **SVG's must have all text and icons converted into outlines to ensure it displays properly for all users.**
-  * Use color's we've already used or choose something similarly appropriate.
+
+* First badge tagline uses the font [**Roboto Medium**](https://fonts.google.com/specimen/Roboto?selection.family=Roboto:500) with `220` character tracking (if using Adobe Illustrator).
+* Second badge tagline uses the font [**Montserrat Extra-Bold**](https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:800) with `220` character tracking (if using Adobe Illustrator).
+* There should always be `13px` padding on all sides of each tagline.
+* **SVG's must have all text and icons converted into outlines to ensure it displays properly for all users.**
+* Use color's we've already used or choose something similarly appropriate.
 
 ### Badge List
+
 **Last updated:** `March 16, 2017`.
 
 ###### Ages
@@ -49,6 +54,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Android \*
 
 ###### Built With
+
 * Grav
 * Science
 * Love \*
@@ -117,10 +123,14 @@ If submitting a badge svg, please abide by the following guidelines
 * Python \*
 * Ruby \*
 * Swift \*
+* C
 * C#
+* C++
 * Vue
 * Pug
+* Go
 * Javascript
+* Java
 * Meteor
 
 ###### Powered By
