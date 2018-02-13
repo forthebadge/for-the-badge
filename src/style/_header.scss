@@ -135,6 +135,12 @@ header {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: white;
+  transition: all 300ms;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #535A60;
+  }
 
   @media only screen and (max-width: $mobile) {
     display: block;
