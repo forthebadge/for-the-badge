@@ -7,8 +7,7 @@ html
     meta(charset="UTF-8")
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     link(rel='stylesheet', href='style.css?v=1.4')
-    script(type='text/javascript', src='//use.typekit.net/eev6skq.js')
-    script(type='text/javascript') try{Typekit.load();}catch(e){}
+
   body
     .wrapper
 
@@ -25,12 +24,16 @@ html
 
       footer
         .container
-            a.view-all(href='#') View All
-            a.attr-company(href='http://www.braveux.com', target='_blank') A Brave UX Endeavor
+          a.view-all(href='#') View All
+          a.attr-company(href='https://www.braveux.com', target='_blank') A Brave UX Endeavor
 
-    script(src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js')
-    script(src='main.js?v=1.2')
-    script.
+
+    script(type='text/javascript', src='//use.typekit.net/eev6skq.js')
+    script(type='text/javascript').
+      try{Typekit.load();}catch(e){}
+    script(type='text/javascript', src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    script(type='text/javascript', src='main.js?v=1.2')
+    script(type='text/javascript').
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -38,12 +41,12 @@ html
       ga('create', 'UA-54613109-1', 'auto');
       ga('send', 'pageview');
 
-    script.
+    script(type='text/javascript').
       (function(f,b){
-        var c;
-        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
-        f._hjSettings={hjid:20028, hjsv:3};
-        c=b.createElement("script");c.async=1;
-        c.src="//static.hotjar.com/c/hotjar-20028.js?sv=3";
-        b.getElementsByTagName("head")[0].appendChild(c);
+      var c;
+      f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+      f._hjSettings={hjid:20028, hjsv:3};
+      c=b.createElement("script");c.async=1;
+      c.src="//static.hotjar.com/c/hotjar-20028.js?sv=3";
+      b.getElementsByTagName("head")[0].appendChild(c);
       })(window,document);

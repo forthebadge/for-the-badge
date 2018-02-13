@@ -46,6 +46,17 @@
   }
 }
 
+.copied {
+  &::before {
+    content: "Copied!" !important;
+    top: 120% !important;
+  }
+}
+
+.copied-inline {
+  background-image: url("images/icons/icon-copied.svg") !important;
+}
+
 .imageurl {
   &::before {
     content: "Copy ImageURL";
