@@ -19,7 +19,12 @@
 
   &.expanded {
     label {
-      background-image: url("images/icons/icon-close.svg");
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.856' height='15.856'%3E%3Cpath fill='%23B7B9BB' d='M15.856 2.828L13.028 0l-5.1 5.1-5.1-5.1L0 2.828l5.1 5.1-5.1 5.1 2.828 2.828 5.1-5.1 5.1 5.1 2.828-2.828-5.1-5.1z'/%3E%3C/svg%3E");
+
+      &:hover,
+      &:focus {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.856' height='15.856'%3E%3Cpath fill='%23535A60' d='M15.856 2.828L13.028 0l-5.1 5.1-5.1-5.1L0 2.828l5.1 5.1-5.1 5.1 2.828 2.828 5.1-5.1 5.1 5.1 2.828-2.828-5.1-5.1z'/%3E%3C/svg%3E");
+      }
     }
 
     input {
@@ -34,10 +39,18 @@
     display: block;
     @include size(22px);
     margin: 40px 0 38px 0;
-    background-image: url("images/icons/icon-search.svg");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21.543' height='21.541'%3E%3Cpath fill='%23D5D6D6' d='M20.996 17.875L16.1 12.98a8.497 8.497 0 0 0 1.132-4.238C17.232 4.085 13.148 0 8.49 0 3.81 0 0 3.808 0 8.49c0 4.656 4.086 8.74 8.742 8.74 1.44 0 2.855-.365 4.107-1.06l4.92 4.926c.285.286.666.444 1.072.444a1.51 1.51 0 0 0 1.072-.444l1.255-1.255c.24-.24.367-.523.367-.83 0-.382-.19-.773-.547-1.13zM8.49 3.035c2.987 0 5.707 2.72 5.707 5.707a5.461 5.461 0 0 1-5.455 5.455c-2.986 0-5.707-2.72-5.707-5.708 0-3.01 2.447-5.46 5.455-5.46z'/%3E%3C/svg%3E");
     background-position: center center;
     background-repeat: no-repeat;
     cursor: pointer;
+    transition: all 300ms;
+
+    &:hover,
+    &:focus {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21.543' height='21.541'%3E%3Cpath fill='%23535A60' d='M20.996 17.875L16.1 12.98a8.497 8.497 0 0 0 1.132-4.238C17.232 4.085 13.148 0 8.49 0 3.81 0 0 3.808 0 8.49c0 4.656 4.086 8.74 8.742 8.74 1.44 0 2.855-.365 4.107-1.06l4.92 4.926c.285.286.666.444 1.072.444a1.51 1.51 0 0 0 1.072-.444l1.255-1.255c.24-.24.367-.523.367-.83 0-.382-.19-.773-.547-1.13zM8.49 3.035c2.987 0 5.707 2.72 5.707 5.707a5.461 5.461 0 0 1-5.455 5.455c-2.986 0-5.707-2.72-5.707-5.708 0-3.01 2.447-5.46 5.455-5.46z'/%3E%3C/svg%3E");
+      outline: none;
+      border: 0;
+    }
   }
 
   input {
@@ -53,6 +66,7 @@
     color: #A2A4A7;
     outline: none;
     overflow: hidden;
+    transition: color 300ms;
 
     @include placeholder {
       color: #B7B9BB;
@@ -81,7 +95,17 @@
         display: block;
         @include hide-text;
         @include size(25px 20px);
-        background: url("images/icons/icon-twitter.svg") center center no-repeat;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.189' height='19.658'%3E%3Cpath fill='%23D5D6D6' d='M24.19 2.327a9.972 9.972 0 0 1-2.853.782A5 5 0 0 0 23.52.359c-.96.566-2.02.98-3.15 1.2A5.009 5.009 0 0 0 16.744 0a4.963 4.963 0 0 0-4.833 6.092A14.053 14.053 0 0 1 1.69.91a4.91 4.91 0 0 0-.673 2.494 4.96 4.96 0 0 0 2.207 4.13 4.927 4.927 0 0 1-2.25-.62v.062a4.966 4.966 0 0 0 3.98 4.868 4.918 4.918 0 0 1-1.306.172c-.32 0-.632-.03-.936-.088a4.97 4.97 0 0 0 4.637 3.446A9.944 9.944 0 0 1 0 17.428a14.025 14.025 0 0 0 7.607 2.23c9.128 0 14.122-7.563 14.122-14.12 0-.217-.01-.43-.02-.644a9.967 9.967 0 0 0 2.474-2.567z'/%3E%3C/svg%3E");
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: all 300ms;
+
+        &:hover,
+        &:focus {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.189' height='19.658'%3E%3Cpath fill='%23535A60' d='M24.19 2.327a9.972 9.972 0 0 1-2.853.782A5 5 0 0 0 23.52.359c-.96.566-2.02.98-3.15 1.2A5.009 5.009 0 0 0 16.744 0a4.963 4.963 0 0 0-4.833 6.092A14.053 14.053 0 0 1 1.69.91a4.91 4.91 0 0 0-.673 2.494 4.96 4.96 0 0 0 2.207 4.13 4.927 4.927 0 0 1-2.25-.62v.062a4.966 4.966 0 0 0 3.98 4.868 4.918 4.918 0 0 1-1.306.172c-.32 0-.632-.03-.936-.088a4.97 4.97 0 0 0 4.637 3.446A9.944 9.944 0 0 1 0 17.428a14.025 14.025 0 0 0 7.607 2.23c9.128 0 14.122-7.563 14.122-14.12 0-.217-.01-.43-.02-.644a9.967 9.967 0 0 0 2.474-2.567z'/%3E%3C/svg%3E");
+          outline: none;
+          border: 0;
+        }
       }
     }
   }
@@ -91,5 +115,13 @@
     text-transform: uppercase;
     letter-spacing: 1pt;
     color: #B7B9BB;
+    transition: color 300ms;
+
+    &:hover,
+    &:focus {
+      color: #535A60;
+      outline: none;
+      border: 0;
+    }
   }
 }
