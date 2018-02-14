@@ -184,3 +184,4 @@ If submitting a badge svg, please abide by the following guidelines
 * That's how they get you
 * It's not a lie if you believe it
 * Not an issue
+* Should Designers Code?
