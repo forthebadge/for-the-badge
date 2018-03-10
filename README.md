@@ -132,6 +132,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Javascript
 * Java
 * Meteor
+* Groovy
 
 ###### Powered By
 
