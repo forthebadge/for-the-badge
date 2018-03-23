@@ -104,6 +104,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 * Microsoft Paint
 * Etch a Sketch
+* Inkscape \*
 
 ###### Fo
 
@@ -133,8 +134,8 @@ If submitting a badge svg, please abide by the following guidelines
 * Java
 * Meteor
 * Groovy
-* Elixir
-* Julia
+* Elixir \*
+* Julia \*
 
 ###### Powered By
 
