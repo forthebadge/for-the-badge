@@ -133,6 +133,8 @@ If submitting a badge svg, please abide by the following guidelines
 * Java
 * Meteor
 * Groovy
+* Elixir
+* Julia
 
 ###### Powered By
 
