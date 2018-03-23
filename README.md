@@ -149,6 +149,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Water \*
 * The Watergate
 * Flux Capacitor
+* Phoenix \*
 
 ###### Approved By
 
