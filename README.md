@@ -136,6 +136,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Groovy
 * Elixir \*
 * Julia \*
+* Erlang
 
 ###### Powered By
 
