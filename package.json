@@ -28,6 +28,7 @@
     "node-sass": "^4.5.3"
   },
   "dependencies": {
-    "clipboard": "^1.7.1"
+    "clipboard": "^1.7.1",
+    "hoek": "^5.0.3"
   }
 }
