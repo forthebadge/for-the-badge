@@ -1,4 +1,4 @@
-﻿# For the Badge
+# For the Badge
 
 [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
@@ -185,3 +185,4 @@ If submitting a badge svg, please abide by the following guidelines
 * That's how they get you
 * It's not a lie if you believe it
 * Not an issue
+* Awesome Badge
