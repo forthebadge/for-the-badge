@@ -113,6 +113,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ###### For
 
+* Robots
 * Sharks
 * You
 
