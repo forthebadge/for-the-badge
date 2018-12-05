@@ -52,6 +52,7 @@ If submitting a badge svg, please abide by the following guidelines
 ###### Built For
 
 * Android \*
+* You
 
 ###### Built With
 
@@ -164,6 +165,13 @@ If submitting a badge svg, please abide by the following guidelines
 
 * HTML2
 * HTML5
+
+###### May contain
+
+* Cuteness
+* Code
+* Nothing
+* Fun
 
 ###### Miscellaneous
 
