@@ -4,7 +4,10 @@
   "description": "For the sake of badges",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "exit 0"
+    "start": "yarn install",
+    "test": "exit 0",
+    "dev": "gulp default",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -17,9 +20,9 @@
   },
   "homepage": "https://forthebadge.com",
   "devDependencies": {
+    "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
     "gulp-imagemin": "^5.0.3",
     "gulp-jade": "^1.1.0",
     "gulp-load-plugins": "^1.5.0",

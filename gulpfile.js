@@ -1,74 +1,95 @@
 'use strict';
 
-var fs = require('fs');
-var gulp = require('gulp');
-var p = require('gulp-load-plugins')();
+const fs = require('fs');
+const gulp = require('gulp');
+const browserSync = require('browser-sync');
+const p = require('gulp-load-plugins')();
 
-var handle = function(err) {
-  console.log(err); this.emit('end');
+const handle = function(err) {
+  console.log(err);
+  this.emit('end');
 };
 
-gulp.task('server', function() {
-  return p.connect.server({
-    root: 'dist',
-    port: 8000,
-    livereload: true
-  });
-});
+// function to properly reload your browser
+function reload(done) {
+  browserSync.reload();
+  done();
+}
 
 gulp.task('jade', function() {
-  var locals = {badges: fs.readdirSync('./src/images/badges')};
-  return gulp.src('src/views/*.jade')
-    .pipe(p.jade({locals: locals}))
+  var locals = { badges: fs.readdirSync('./src/images/badges') };
+  return gulp
+    .src('src/views/*.jade')
+    .pipe(p.jade({ locals: locals }))
     .on('error', handle)
-    .pipe(gulp.dest('dist/'))
-    .pipe(p.connect.reload());
+    .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('sass', function() {
-  return gulp.src('src/style/style.scss')
-    .pipe(p.sass({outputStyle: 'compressed'}))
+  return gulp
+    .src('src/style/style.scss')
+    .pipe(p.sass({ outputStyle: 'compressed' }))
     .on('error', handle)
-    .pipe(gulp.dest('dist/'))
-    .pipe(p.connect.reload());
+    .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('scripts', function() {
-  return gulp.src('src/scripts/**/*.js')
+  return gulp
+    .src('src/scripts/**/*.js')
     .pipe(p.concat('main.js'))
     .on('error', handle)
     .pipe(p.uglify())
     .on('error', handle)
-    .pipe(gulp.dest('dist/'))
-    .pipe(p.connect.reload());
+    .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('images', function() {
-  return gulp.src('src/images/**/*')
+  return gulp
+    .src('src/images/**/*')
     .pipe(p.imagemin())
     .on('error', handle)
-    .pipe(gulp.dest('dist/images'))
-    .pipe(p.connect.reload());
+    .pipe(gulp.dest('dist/images'));
 });
 
 gulp.task('favicon', function() {
-  return gulp.src('src/images/favicon/*')
-    .pipe(gulp.dest('dist'));
+  return gulp.src('src/images/favicon/*').pipe(gulp.dest('dist'));
 });
 
 gulp.task('badges', function() {
-  return gulp.src('src/images/badges/**/*')
+  return gulp
+    .src('src/images/badges/**/*')
     .pipe(p.imagemin())
     .on('error', handle)
     .pipe(gulp.dest('dist/badges'));
 });
 
-gulp.task('watch', function() {
-  gulp.watch('src/views/**/*.jade', ['jade']);
-  gulp.watch('src/style/**/*.scss', ['sass']);
-  gulp.watch('src/scripts/**/*.js', ['scripts']);
-  gulp.watch('src/images/**/*', ['images']);
+// 'gulp serve' -- open site in browser and watch for changes
+// in source files and update them when needed
+gulp.task('serve', done => {
+  browserSync.init({
+    // tunnel: true,
+    // open: false,
+    port: 8000,
+    open: false,
+    notify: false,
+    logConnections: false,
+    server: {
+      baseDir: 'dist',
+      serveStaticOptions: {
+        extensions: ['html']
+      }
+    }
+  });
+  done();
+
+  // watch various files for changes and do the needful
+  gulp.watch('src/views/**/*.jade', gulp.series('jade', reload));
+  gulp.watch('src/style/**/*.scss', gulp.series('sass', reload));
+  gulp.watch('src/scripts/**/*.js', gulp.series('scripts', reload));
+  gulp.watch('src/images/**/*', gulp.series('images', reload));
 });
 
-gulp.task('default', ['server', 'jade', 'sass', 'scripts', 'images', 'favicon', 'watch']);
-gulp.task('build', ['jade', 'sass', 'scripts', 'images', 'favicon', 'badges']);
+gulp.task('build', gulp.series('jade', 'sass', 'scripts', 'images', 'favicon'));
+
+gulp.task('default', gulp.series('build', 'serve'));
+gulp.task('build', gulp.series('build'));
