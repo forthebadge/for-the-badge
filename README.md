@@ -133,6 +133,10 @@ If submitting a badge svg, please abide by the following guidelines
 * Java
 * Meteor
 * Groovy
+* Haskell
+* Erlang
+* Elixir
+* OCaml
 
 ###### Powered By
 
