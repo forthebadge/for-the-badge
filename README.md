@@ -187,3 +187,4 @@ If submitting a badge svg, please abide by the following guidelines
 * Not an issue
 * Dance Dance
 * Not Tricks, Illusions
+* Made in WordPad
