@@ -188,3 +188,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Not an issue
 * Not a bug A feature
 * Works on My Machines
+* Fixed Bugs
+* It Works. Why?
+* Open Source
+* CTRL + C CTRL + V
