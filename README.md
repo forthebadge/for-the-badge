@@ -133,6 +133,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Java
 * Meteor
 * Groovy
+* Out Pants
 
 ###### Powered By
 
@@ -185,3 +186,5 @@ If submitting a badge svg, please abide by the following guidelines
 * That's how they get you
 * It's not a lie if you believe it
 * Not an issue
+* Not a bug A feature
+* Works on My Machines
