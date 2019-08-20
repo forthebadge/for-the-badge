@@ -110,7 +110,11 @@ function initCopy() {
   clientInline.on('success', function(e) {
     e.trigger.classList.add('copied-inline');
     e.clearSelection();
-    window.setTimeout(function() {
+    if (e.trigger.$copyTimeoutInline) {
+      clearTimeout(e.trigger.$copyTimeoutInline); // Reset the unfinished timeout
+    }
+    e.trigger.$copyTimeoutInline = window.setTimeout(function() {
+      e.trigger.$copyTimeoutInline = undefined;
       e.trigger.classList.remove('copied-inline'); // Reset back to default after 2s
     }, 2000);
   });
@@ -118,7 +122,11 @@ function initCopy() {
   clientCopy.on('success', function(e) {
     e.trigger.classList.add('copied');
     e.clearSelection();
-    window.setTimeout(function() {
+    if (e.trigger.$copyTimeout) {
+      clearTimeout(e.trigger.$copyTimeout); // Reset the unfinished timeout
+    }
+    e.trigger.$copyTimeout = window.setTimeout(function() {
+      e.trigger.$copyTimeout = undefined;
       e.trigger.classList.remove('copied'); // Reset back to default after 2s
     }, 2000);
   });
