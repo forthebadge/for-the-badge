@@ -62,6 +62,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Swag
 * Wordpress
 * Gramma's recipe
+* Brains
 
 ###### Creative Commons
 
