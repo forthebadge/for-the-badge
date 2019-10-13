@@ -33,7 +33,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ### Badge List
 
-**Last updated:** `March 16, 2017`.
+**Last updated:** `October 13, 2019`.
 
 ###### Ages
 
@@ -145,6 +145,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Oxygen \*
 * Water \*
 * The Watergate
+* Qt
 
 ###### Approved By
 
