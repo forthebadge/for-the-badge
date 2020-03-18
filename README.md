@@ -148,6 +148,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ###### Approved By
 
+* ME
 * Veridian Dynamics
 * George Costanza
 
