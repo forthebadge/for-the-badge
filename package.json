@@ -20,18 +20,18 @@
   },
   "homepage": "https://forthebadge.com",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^5.0.3",
+    "gulp-imagemin": "^7.1.0",
     "gulp-jade": "^1.1.0",
-    "gulp-load-plugins": "^1.5.0",
+    "gulp-load-plugins": "^2.0.3",
     "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.0",
-    "node-sass": "^4.5.3"
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
-    "clipboard": "^2.0.4",
-    "hoek": "^6.1.2"
+    "clipboard": "^2.0.6",
+    "hoek": "^6.1.3"
   }
 }
