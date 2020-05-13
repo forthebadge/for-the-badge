@@ -1,4 +1,4 @@
-extends ./includes/layout.jade
+extends ./includes/_layout
 
 //- HEADER
 block header
@@ -30,11 +30,11 @@ block main
   section.search-results
     ul.search-list
       each item in badges
-        li(data-search="#{item}")
-          img.view-all-badge(src="images/badges/#{item}")
+        li(data-search=`${item}`)
+          img.view-all-badge(src=`images/badges/${item}`)
           div.view-all-copy
-            a.inline-copy.markdown(href="#" onClick="return false;" data-clipboard-text="[![forthebadge](https://forthebadge.com/images/badges/#{item})](https://forthebadge.com)")
-            a.inline-copy.imageurl(href="#" onClick="return false;" data-clipboard-text="https://forthebadge.com/images/badges/#{item}")
+            a.inline-copy.markdown(href="#" onClick="return false;" data-clipboard-text=`[![forthebadge](https://forthebadge.com/images/badges/${item})](https://forthebadge.com)`)
+            a.inline-copy.imageurl(href="#" onClick="return false;" data-clipboard-text=`https://forthebadge.com/images/badges/${item}`)
 
   section.about
     .container
