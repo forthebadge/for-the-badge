@@ -150,6 +150,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 * Veridian Dynamics
 * George Costanza
+* NASA (hopefully)
 
 ###### Uses
 
@@ -159,6 +160,8 @@ If submitting a badge svg, please abide by the following guidelines
 * HTML
 * JS
 * H9RBS.js
+* Tweepy
+* Lots of Dependencies
 
 ###### Validated
 
@@ -185,3 +188,4 @@ If submitting a badge svg, please abide by the following guidelines
 * That's how they get you
 * It's not a lie if you believe it
 * Not an issue
+* Do not touch the <div>
