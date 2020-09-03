@@ -5,7 +5,7 @@ const commonjs = require("rollup-plugin-commonjs");
 const eslint = require("rollup-plugin-eslint");
 const uglify = require("rollup-plugin-uglify-es");
 const replace = require("rollup-plugin-replace");
-const resolve = require("@rollup/plugin-node-resolve");
+const resolve = require("rollup-plugin-node-resolve");
 const rename = require("gulp-rename");
 const sourcemaps = require("gulp-sourcemaps");
 const notify = require("gulp-notify");
@@ -19,7 +19,7 @@ const production = argv.prod || argv.production;
 const optionsProd = [
   eslint,
   uglify(),
-  resolve({ jsnext: true, main: true }),
+  resolve({ mainFields: ["jsnext:main"] }),
   commonjs(),
   replace({
     "process.env.NODE_ENV": JSON.stringify("production"),
@@ -43,7 +43,7 @@ const optionsProd = [
 
 const optionsDev = [
   eslint,
-  resolve({ jsnext: true, main: true }),
+  resolve({ mainFields: ["jsnext:main"] }),
   commonjs(),
   replace({
     "process.env.NODE_ENV": JSON.stringify("development"),
