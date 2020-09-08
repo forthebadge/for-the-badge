@@ -22,7 +22,7 @@
   }
 
   &:hover {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
   }
 
   &::before,
@@ -54,7 +54,7 @@
 }
 
 .copied-inline {
-  background-image: url("images/icons/icon-copied.svg") !important;
+  background-image: url("../images/icons/icon-copied.svg") !important;
 }
 
 .imageurl {
@@ -65,25 +65,25 @@
 
   &.white {
     &::after {
-      background-image: url("images/icons/icon-imageurl-white.svg");
+      background-image: url("../images/icons/icon-imageurl-white.svg");
     }
   }
 
   &.cyan {
     &::after {
-      background-image: url("images/icons/icon-imageurl-cyan.svg");
+      background-image: url("../images/icons/icon-imageurl-cyan.svg");
     }
   }
 
   &.royal {
     &::after {
-      background-image: url("images/icons/icon-imageurl-royal.svg");
+      background-image: url("../images/icons/icon-imageurl-royal.svg");
     }
   }
 
   &.navy {
     &::after {
-      background-image: url("images/icons/icon-imageurl-navy.svg");
+      background-image: url("../images/icons/icon-imageurl-navy.svg");
     }
   }
 }
@@ -96,50 +96,50 @@
 
   &.white {
     &::after {
-      background-image: url("images/icons/icon-markdown-white.svg");
+      background-image: url("../images/icons/icon-markdown-white.svg");
     }
   }
 
   &.cyan {
     &::after {
-      background-image: url("images/icons/icon-markdown-cyan.svg");
+      background-image: url("../images/icons/icon-markdown-cyan.svg");
     }
   }
 
   &.royal {
     &::after {
-      background-image: url("images/icons/icon-markdown-royal.svg");
+      background-image: url("../images/icons/icon-markdown-royal.svg");
     }
   }
 
   &.navy {
     &::after {
-      background-image: url("images/icons/icon-markdown-navy.svg");
+      background-image: url("../images/icons/icon-markdown-navy.svg");
     }
   }
 }
 
 .white {
   &::before {
-    color: #F4F4F0;
+    color: #f4f4f0;
   }
 }
 
 .cyan {
   &::before {
-    color: #26C7D5;
+    color: #26c7d5;
   }
 }
 
 .royal {
   &::before {
-    color: #009FEF;
+    color: #009fef;
   }
 }
 
 .navy {
   &::before {
-    color: #5593C9;
+    color: #5593c9;
   }
 }
 
