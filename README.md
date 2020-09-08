@@ -94,6 +94,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 * Cat GIFs \*
 * Technical Debt
+* Tasty Spaghetti Code
 
 ###### Does Not Contain
 
@@ -149,6 +150,9 @@ If submitting a badge svg, please abide by the following guidelines
 * Oxygen \*
 * Water \*
 * The Watergate
+* Black Magic
+* Energy Drinks
+* Overtime
 
 ###### Approved By
 
@@ -189,3 +193,4 @@ If submitting a badge svg, please abide by the following guidelines
 * That's how they get you
 * It's not a lie if you believe it
 * Not an issue
+* 0% Optimized
