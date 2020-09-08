@@ -25,6 +25,7 @@ Edit the list below and submit a pull request. Add to the appropriate category i
 
 If submitting a badge svg, please abide by the following guidelines
 
+* Badge taglines should be `12pt` or `16px`.
 * First badge tagline uses the font [**Roboto Medium**](https://fonts.google.com/specimen/Roboto?selection.family=Roboto:500) with `220` character tracking (if using Adobe Illustrator).
 * Second badge tagline uses the font [**Montserrat Extra-Bold**](https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:800) with `220` character tracking (if using Adobe Illustrator).
 * There should always be `13px` padding on all sides of each tagline.
