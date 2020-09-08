@@ -128,10 +128,12 @@ If submitting a badge svg, please abide by the following guidelines
 * C++
 * Vue
 * Pug
+* Rust
 * Go
 * Javascript
 * Java
 * Meteor
+* TypeScript
 * Groovy
 * Reason
 
