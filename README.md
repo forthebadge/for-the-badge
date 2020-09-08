@@ -25,6 +25,7 @@ Edit the list below and submit a pull request. Add to the appropriate category i
 
 If submitting a badge svg, please abide by the following guidelines
 
+* Badge taglines should be `12pt` or `16px`.
 * First badge tagline uses the font [**Roboto Medium**](https://fonts.google.com/specimen/Roboto?selection.family=Roboto:500) with `220` character tracking (if using Adobe Illustrator).
 * Second badge tagline uses the font [**Montserrat Extra-Bold**](https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:800) with `220` character tracking (if using Adobe Illustrator).
 * There should always be `13px` padding on all sides of each tagline.
@@ -33,7 +34,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ### Badge List
 
-**Last updated:** `March 16, 2017`.
+**Last updated:** `September 9, 2020`.
 
 ###### Ages
 
@@ -94,6 +95,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 * Cat GIFs \*
 * Technical Debt
+* Tasty Spaghetti Code
 
 ###### Does Not Contain
 
@@ -113,6 +115,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ###### For
 
+* Robots
 * Sharks
 * You
 
@@ -128,12 +131,15 @@ If submitting a badge svg, please abide by the following guidelines
 * C++
 * Vue
 * Pug
+* Rust
 * Go
 * Javascript
 * Java
 * Meteor
+* TypeScript
 * Groovy
 * Out Pants
+* Reason
 
 ###### Powered By
 
@@ -146,6 +152,10 @@ If submitting a badge svg, please abide by the following guidelines
 * Oxygen \*
 * Water \*
 * The Watergate
+* Qt
+* Black Magic
+* Energy Drinks
+* Overtime
 
 ###### Approved By
 
@@ -168,6 +178,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ###### Miscellaneous
 
+* 0% Optimized
 * Check it out
 * Fuck It Ship It
 * No Ragrets
