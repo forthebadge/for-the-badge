@@ -34,7 +34,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ### Badge List
 
-**Last updated:** `March 16, 2017`.
+**Last updated:** `September 9, 2020`.
 
 ###### Ages
 
@@ -151,6 +151,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Oxygen \*
 * Water \*
 * The Watergate
+* Qt
 * Black Magic
 * Energy Drinks
 * Overtime
