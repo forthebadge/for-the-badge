@@ -5,7 +5,7 @@
 
 We don't develop for the money, power, fame, or codebabes. We do it **For the Badge.** It all started because of an obsession with two words: [![Build Status](https://travis-ci.org/BraveUX/for-the-badge.svg)](https://travis-ci.org/BraveUX/for-the-badge). It all ended with this: _badges, for badges’ sake_.
 
-## Usage
+## Badge Usage
 
 1. Check out all the badges [here](https://forthebadge.com)!
 2. Copy the image URL or markdown.
@@ -25,6 +25,7 @@ Edit the list below and submit a pull request. Add to the appropriate category i
 
 If submitting a badge svg, please abide by the following guidelines
 
+* Badge taglines should be `12pt` or `16px`.
 * First badge tagline uses the font [**Roboto Medium**](https://fonts.google.com/specimen/Roboto?selection.family=Roboto:500) with `220` character tracking (if using Adobe Illustrator).
 * Second badge tagline uses the font [**Montserrat Extra-Bold**](https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:800) with `220` character tracking (if using Adobe Illustrator).
 * There should always be `13px` padding on all sides of each tagline.
@@ -33,7 +34,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ### Badge List
 
-**Last updated:** `March 16, 2017`.
+**Last updated:** `September 9, 2020`.
 
 ###### Ages
 
@@ -94,6 +95,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 * Cat GIFs \*
 * Technical Debt
+* Tasty Spaghetti Code
 
 ###### Does Not Contain
 
@@ -114,6 +116,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ###### For
 
+* Robots
 * Sharks
 * You
 
@@ -129,14 +132,17 @@ If submitting a badge svg, please abide by the following guidelines
 * C++
 * Vue
 * Pug
+* Rust
 * Go
 * Javascript
 * Java
 * Meteor
+* TypeScript
 * Groovy
 * Elixir \*
 * Julia \*
 * Erlang
+* Reason
 
 ###### Powered By
 
@@ -151,6 +157,10 @@ If submitting a badge svg, please abide by the following guidelines
 * The Watergate
 * Flux Capacitor
 * Phoenix \*
+* Qt
+* Black Magic
+* Energy Drinks
+* Overtime
 
 ###### Approved By
 
@@ -191,3 +201,4 @@ If submitting a badge svg, please abide by the following guidelines
 * That's how they get you
 * It's not a lie if you believe it
 * Not an issue
+* 0% Optimized

@@ -1,74 +1,60 @@
-'use strict';
+const gulp = require("gulp");
+const browserSync = require("browser-sync");
+const requireDir = require("require-dir");
+// Let's require all the tasks inside gulp/tasks
+requireDir("./gulp/tasks", {
+  recurse: true,
+});
 
-var fs = require('fs');
-var gulp = require('gulp');
-var p = require('gulp-load-plugins')();
+// The main building block task
+gulp.task(
+  "build",
+  gulp.series("pug", "styles", "scripts", "images", "favicon")
+);
 
-var handle = function(err) {
-  console.log(err); this.emit('end');
+// function to properly reload your browser
+function reload(done) {
+  browserSync.reload();
+  done();
+}
+
+const sendMaps = (req, res, next) => {
+  const filename = req.url.split("/").pop();
+  const extension = filename.split(".").pop();
+
+  if (extension === "js") {
+    // res.setHeader('X-SourceMap', '/assets/js/' + filename + '.map');
+  } else if (extension === "css") {
+    res.setHeader("X-SourceMap", `/assets/css/${filename}.map`);
+  }
+
+  return next();
 };
 
-gulp.task('server', function() {
-  return p.connect.server({
-    root: 'dist',
+gulp.task("browser-sync", () =>
+  browserSync.init({
+    server: {
+      baseDir: "./dist",
+      middleware: [sendMaps],
+      serveStaticOptions: {
+        extensions: ["html"],
+      },
+    },
     port: 8000,
-    livereload: true
-  });
+    open: false,
+    notify: false,
+    logConnections: false,
+  })
+);
+
+gulp.task("watch", (done) => {
+  gulp.watch("src/views/**/*.pug", gulp.series("pug", reload));
+  gulp.watch("src/style/**/*.scss", gulp.series("styles", reload));
+  gulp.watch("src/scripts/**/*.js", gulp.series("scripts", reload));
+  gulp.watch("src/images/**/*", gulp.series("images", reload));
+  done();
 });
 
-gulp.task('jade', function() {
-  var locals = {badges: fs.readdirSync('./src/images/badges')};
-  return gulp.src('src/views/*.jade')
-    .pipe(p.jade({locals: locals}))
-    .on('error', handle)
-    .pipe(gulp.dest('dist/'))
-    .pipe(p.connect.reload());
-});
+gulp.task("serve", gulp.parallel("browser-sync", "watch"));
 
-gulp.task('sass', function() {
-  return gulp.src('src/style/style.scss')
-    .pipe(p.sass({outputStyle: 'compressed'}))
-    .on('error', handle)
-    .pipe(gulp.dest('dist/'))
-    .pipe(p.connect.reload());
-});
-
-gulp.task('scripts', function() {
-  return gulp.src('src/scripts/**/*.js')
-    .pipe(p.concat('main.js'))
-    .on('error', handle)
-    .pipe(p.uglify())
-    .on('error', handle)
-    .pipe(gulp.dest('dist/'))
-    .pipe(p.connect.reload());
-});
-
-gulp.task('images', function() {
-  return gulp.src('src/images/**/*')
-    .pipe(p.imagemin())
-    .on('error', handle)
-    .pipe(gulp.dest('dist/images'))
-    .pipe(p.connect.reload());
-});
-
-gulp.task('favicon', function() {
-  return gulp.src('src/images/favicon/*')
-    .pipe(gulp.dest('dist'));
-});
-
-gulp.task('badges', function() {
-  return gulp.src('src/images/badges/**/*')
-    .pipe(p.imagemin())
-    .on('error', handle)
-    .pipe(gulp.dest('dist/badges'));
-});
-
-gulp.task('watch', function() {
-  gulp.watch('src/views/**/*.jade', ['jade']);
-  gulp.watch('src/style/**/*.scss', ['sass']);
-  gulp.watch('src/scripts/**/*.js', ['scripts']);
-  gulp.watch('src/images/**/*', ['images']);
-});
-
-gulp.task('default', ['server', 'jade', 'sass', 'scripts', 'images', 'favicon', 'watch']);
-gulp.task('build', ['jade', 'sass', 'scripts', 'images', 'favicon', 'badges']);
+gulp.task("default", gulp.series("build", "serve"));
