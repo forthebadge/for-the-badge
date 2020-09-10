@@ -106,6 +106,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 * Microsoft Paint
 * Etch a Sketch
+* Inkscape \*
 
 ###### Fo
 
@@ -138,6 +139,9 @@ If submitting a badge svg, please abide by the following guidelines
 * Meteor
 * TypeScript
 * Groovy
+* Elixir \*
+* Julia \*
+* Erlang
 * Reason
 
 ###### Powered By
@@ -151,6 +155,8 @@ If submitting a badge svg, please abide by the following guidelines
 * Oxygen \*
 * Water \*
 * The Watergate
+* Flux Capacitor
+* Phoenix \*
 * Qt
 * Black Magic
 * Energy Drinks
