@@ -93,6 +93,8 @@ If submitting a badge svg, please abide by the following guidelines
 
 ###### Contains
 
+* 17 Coffee Cups
+* Breadcrumbs
 * Cat GIFs \*
 * Technical Debt
 * Tasty Spaghetti Code
@@ -106,6 +108,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 * Microsoft Paint
 * Etch a Sketch
+* Inkscape \*
 
 ###### Fo
 
@@ -139,19 +142,26 @@ If submitting a badge svg, please abide by the following guidelines
 * TypeScript
 * Groovy
 * Out Pants
+* Elixir \*
+* Julia \*
+* Erlang
 * Reason
 
 ###### Powered By
 
 * Case Western Reserve
+* Coder's Sweat
 * Comcast
 * Electricity \*
 * Jeff's Keyboard \*
 * Netflix
+* Pull Requests
 * Responsibility
 * Oxygen \*
 * Water \*
 * The Watergate
+* Flux Capacitor
+* Phoenix \*
 * Qt
 * Black Magic
 * Energy Drinks
@@ -165,11 +175,13 @@ If submitting a badge svg, please abide by the following guidelines
 ###### Uses
 
 * Badges
+* Brains
 * CSS
 * Git
 * HTML
 * JS
 * H9RBS.js
+
 
 ###### Validated
 
