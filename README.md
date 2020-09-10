@@ -141,6 +141,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Meteor
 * TypeScript
 * Groovy
+* Out Pants
 * Elixir \*
 * Julia \*
 * Erlang
@@ -189,6 +190,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ###### Miscellaneous
 
+* 0% Optimized
 * Check it out
 * Fuck It Ship It
 * No Ragrets
@@ -207,4 +209,9 @@ If submitting a badge svg, please abide by the following guidelines
 * That's how they get you
 * It's not a lie if you believe it
 * Not an issue
-* 0% Optimized
+* Not a bug A feature
+* Works on My Machines
+* Fixed Bugs
+* It Works. Why?
+* Open Source
+* CTRL + C CTRL + V
