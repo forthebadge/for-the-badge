@@ -138,6 +138,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Go
 * Javascript
 * Java
+* Markdown \*
 * Meteor
 * TypeScript
 * Groovy
@@ -151,6 +152,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 * Case Western Reserve
 * Coder's Sweat
+* Coffee \*
 * Comcast
 * Electricity \*
 * Jeff's Keyboard \*
