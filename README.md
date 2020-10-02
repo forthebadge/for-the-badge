@@ -217,3 +217,5 @@ If submitting a badge svg, please abide by the following guidelines
 * It Works. Why?
 * Open Source
 * CTRL + C CTRL + V
+* Motivated by Hacktoberfest
+* For the T-shirt
