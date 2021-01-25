@@ -34,7 +34,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ### Badge List
 
-**Last updated:** `September 9, 2020`.
+**Last updated:** `January 25, 2020`.
 
 ###### Ages
 
@@ -109,6 +109,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Microsoft Paint
 * Etch a Sketch
 * Inkscape \*
+* Figma \*
 
 ###### Fo
 
@@ -217,3 +218,4 @@ If submitting a badge svg, please abide by the following guidelines
 * It Works. Why?
 * Open Source
 * CTRL + C CTRL + V
+* CTRL + X CTRL + V
