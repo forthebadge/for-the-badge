@@ -179,6 +179,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Black Magic
 * Energy Drinks
 * Overtime
+* Linux \*
 
 ###### Approved By
 
