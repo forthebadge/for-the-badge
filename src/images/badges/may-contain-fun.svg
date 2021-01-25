@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49.217mm" height="9.2604mm" version="1.1" viewBox="0 0 49.217 9.2604" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <style>.a{fill:#3c9ad5;}.b{fill:#3bc4f3;}.c{fill:#fff;}</style>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(190.36 -14.172)">
+  <g fill="#fff" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal" aria-label="X">
+   <path class="st1" d="m-190.36 14.172h34.292v9.2604h-34.292z" stroke-width=".078262"/>
+   <path class="st0" d="m-156.07 14.172h14.924v9.2604h-14.924z" stroke-width=".035544"/>
+   <g transform="scale(.99999 1)" fill="#fff" stroke-width=".070004" aria-label="FUN">
+    <path d="m-152.01 18.154v0.48895h0.98107v0.48577h-0.98107v0.762h-0.62865v-2.2225h1.7431v0.48577z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-148.87 19.935q-0.4953 0-0.77152-0.26987-0.27305-0.26987-0.27305-0.76517v-1.2319h0.62864v1.2128q0 0.5334 0.42228 0.5334 0.41909 0 0.41909-0.5334v-1.2128h0.61912v1.2319q0 0.4953-0.27622 0.76517-0.27305 0.26987-0.76834 0.26987z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-144.59 17.668v2.2225h-0.51752l-0.98107-1.1843v1.1843h-0.61595v-2.2225h0.51753l0.98106 1.1843v-1.1843z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   </g>
+   <g fill="#fff" stroke-width=".070004" aria-label="MAY CONTAIN">
+    <path d="m-186.42 17.674 0.65112 1.7301 0.64957-1.7301h0.50695v2.2572h-0.39067v-0.74414l0.0387-0.99529-0.66662 1.7394h-0.28061l-0.66507-1.7379 0.0388 0.99374v0.74414h-0.39068v-2.2572z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-182.15 19.405h-0.87436l-0.18294 0.52555h-0.40773l0.85267-2.2572h0.35191l0.85421 2.2572h-0.40927zm-0.76429-0.31626h0.65422l-0.32711-0.93638z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-180.1 18.743 0.51935-1.0697h0.43408l-0.75655 1.4263v0.83096h-0.39377v-0.83096l-0.75809-1.4263h0.43563z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-174.99 19.196q-0.0341 0.36122-0.26665 0.56431-0.23255 0.20154-0.61857 0.20154-0.26975 0-0.47594-0.12712-0.20464-0.12867-0.31626-0.36432-0.11162-0.23564-0.11627-0.54725v-0.21084q0-0.31936 0.11317-0.56276t0.32401-0.37517q0.21239-0.13178 0.48989-0.13178 0.37363 0 0.60152 0.20309 0.22789 0.20309 0.2651 0.57361h-0.39068q-0.0279-0.2434-0.14262-0.35037-0.11317-0.10852-0.33332-0.10852-0.25579 0-0.39377 0.18759-0.13643 0.18604-0.13953 0.54725v0.19999q0 0.36587 0.13023 0.5581 0.13177 0.19224 0.38447 0.19224 0.23099 0 0.34727-0.10387 0.11627-0.10387 0.14727-0.34572z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-172.14 18.861q0 0.33176-0.11473 0.58291-0.11472 0.2496-0.32866 0.38447-0.21239 0.13332-0.48989 0.13332-0.2744 0-0.48989-0.13332-0.21394-0.13488-0.33177-0.38292-0.11627-0.24805-0.11782-0.57206v-0.12712q0-0.33021 0.11627-0.58291 0.11783-0.2527 0.33022-0.38602 0.21394-0.13488 0.48989-0.13488t0.48834 0.13332q0.21394 0.13178 0.33021 0.38137 0.11628 0.24805 0.11783 0.57826zm-0.39223-0.11782q0-0.37517-0.14263-0.57516-0.14107-0.19999-0.40152-0.19999-0.25425 0-0.39843 0.19999-0.14262 0.19844-0.14572 0.56276v0.13022q0 0.37207 0.14417 0.57516 0.14573 0.20309 0.40308 0.20309 0.26045 0 0.39997-0.19844 0.14108-0.19844 0.14108-0.57981z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-169.26 19.931h-0.39223l-1.0061-1.6015v1.6015h-0.39222v-2.2572h0.39222l1.0092 1.6077v-1.6077h0.38913z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-166.52 17.99h-0.70383v1.941h-0.38912v-1.941h-0.69763v-0.31626h1.7906z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-164.44 19.405h-0.87436l-0.18294 0.52555h-0.40772l0.85266-2.2572h0.35192l0.85421 2.2572h-0.40928zm-0.76429-0.31626h0.65422l-0.32711-0.93638z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-162.48 19.931h-0.39067v-2.2572h0.39067z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+    <path d="m-159.51 19.931h-0.39222l-1.0061-1.6015v1.6015h-0.39223v-2.2572h0.39223l1.0092 1.6077v-1.6077h0.38912z" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   </g>
+  </g>
+ </g>
+ <style type="text/css">.st0{fill:#C1282D;}
+	.st1{fill:#EF4041;}
+	.st2{fill:#FFFFFF;}</style>
+ <style>.st0{fill:#C13D3B;} .st1{fill:#EA4761;} .st2{fill:#FFFFFF;}</style>
+</svg>

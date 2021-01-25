@@ -53,6 +53,8 @@ If submitting a badge svg, please abide by the following guidelines
 ###### Built For
 
 * Android \*
+* You
+* Pogchamps
 
 ###### Built With
 
@@ -63,6 +65,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Swag
 * Wordpress
 * Gramma's recipe
+* Experience
 
 ###### Creative Commons
 
@@ -148,6 +151,13 @@ If submitting a badge svg, please abide by the following guidelines
 * Julia \*
 * Erlang
 * Reason
+
+###### May contain
+
+* Code
+* Cutness
+* Fun
+* Nothing
 
 ###### Powered By
 
