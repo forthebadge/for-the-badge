@@ -1,9 +1,9 @@
-﻿# For the Badge
+# For the Badge
 
 [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
 
-We don't develop for the money, power, fame, or codebabes. We do it **For the Badge.** It all started because of an obsession with two words: [![Build Status](https://travis-ci.org/BraveUX/for-the-badge.svg)](https://travis-ci.org/BraveUX/for-the-badge). It all ended with this: _badges, for badges’ sake_.
+We don't develop for the money, power, fame, or codebabes. We do it **For the Badge.** It all started because of an obsession with two words: ![Build Status](https://img.shields.io/badge/build-passing-success). It all ended with this: _badges, for badges’ sake_.
 
 ## Badge Usage
 
