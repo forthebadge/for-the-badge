@@ -72,6 +72,7 @@ If submitting a badge svg, please abide by the following guidelines
 * Creative Commons NC-SA
 * Creative Commons NC
 * Creative Commons SA
+* Creative Commons BY-SA
 
 ###### Certified By
 
