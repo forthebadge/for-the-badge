@@ -34,7 +34,7 @@ If submitting a badge svg, please abide by the following guidelines
 
 ### Badge List
 
-**Last updated:** `May26, 2021`.
+**Last updated:** `May 26, 2021`.
 
 ###### Ages
 
