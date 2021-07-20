@@ -54,7 +54,7 @@
   }
 
   input {
-    @include transition(width .25s ease-in-out);
+    @include transition(width 0.25s ease-in-out);
     @include appearance(none);
     float: left;
     @include size(0px 60px);
@@ -63,13 +63,13 @@
     background-color: white;
     border: none;
     font-size: 28px;
-    color: #A2A4A7;
+    color: #a2a4a7;
     outline: none;
     overflow: hidden;
     transition: color 300ms;
 
     @include placeholder {
-      color: #B7B9BB;
+      color: #b7b9bb;
     }
   }
 }
@@ -86,7 +86,7 @@
 
   li {
     float: left;
-    margin-right: 146px;
+    margin-right: 6.9em;
 
     &:last-child {
       margin-right: 0;
@@ -114,12 +114,12 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1pt;
-    color: #B7B9BB;
+    color: #b7b9bb;
     transition: color 300ms;
 
     &:hover,
     &:focus {
-      color: #535A60;
+      color: #535a60;
       outline: none;
       border: 0;
     }

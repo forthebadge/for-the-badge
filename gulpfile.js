@@ -9,7 +9,7 @@ requireDir("./gulp/tasks", {
 // The main building block task
 gulp.task(
   "build",
-  gulp.series("pug", "styles", "scripts", "images", "favicon")
+  gulp.series("pug", "styles", "scripts", "images", "favicon", "generator")
 );
 
 // function to properly reload your browser
@@ -52,6 +52,7 @@ gulp.task("watch", (done) => {
   gulp.watch("src/style/**/*.scss", gulp.series("styles", reload));
   gulp.watch("src/scripts/**/*.js", gulp.series("scripts", reload));
   gulp.watch("src/images/**/*", gulp.series("images", reload));
+  gulp.watch("src/generator/**/*", gulp.series("generator", reload));
   done();
 });
 
