@@ -64,7 +64,7 @@
     "node-sass": "^4.14.1",
     "postcss-preset-env": "^6.7.0",
     "require-dir": "^1.2.0",
-    "rollup": "^2.26.9",
+    "rollup": "^2.53.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-eslint": "^7.0.0",
