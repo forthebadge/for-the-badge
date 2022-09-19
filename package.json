@@ -37,7 +37,7 @@
   ],
   "homepage": "https://forthebadge.com",
   "devDependencies": {
-    "@babel/core": "^7.11.5",
+    "@babel/core": "^7.19.1",
     "@babel/preset-env": "^7.14.8",
     "autoprefixer": "^9.8.6",
     "browser-sync": "^2.26.14",
