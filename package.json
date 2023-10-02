@@ -73,7 +73,7 @@
     "yargs": "^15.4.1"
   },
   "dependencies": {
-    "acorn": "^8.0.1",
+    "acorn": "^8.10.0",
     "bl": "5.0.0",
     "clipboard": "^2.0.8",
     "hoek": "^6.1.3",
