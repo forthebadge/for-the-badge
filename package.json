@@ -61,7 +61,7 @@
     "gulp-uglify": "^3.0.2",
     "imagemin-mozjpeg": "^9.0.0",
     "node-sass": "^6.0.1",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-preset-env": "^6.7.1",
     "require-dir": "^1.2.0",
     "rollup": "^2.53.2",
     "rollup-plugin-babel": "^4.4.0",
