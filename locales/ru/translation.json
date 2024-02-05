@@ -1,0 +1,142 @@
+{
+  "navbar": {
+    "featured": "Избранное",
+    "viewAllBadges": "Посмотреть все значки",
+    "myBadges": "Мои значки",
+    "about": "О нас",
+    "changelogs": "Журнал изменений",
+    "contact": "Контакты",
+    "pressSubtitle": "Свяжитесь с нами!",
+    "socials": "Социальные сети",
+    "githubCallToAction": "Поставьте нам звезду на Github!",
+    "linkedinCallToAction": "Подписывайтесь на нас в LinkedIn!",
+    "twitterCallToAction": "Подписывайтесь на нас в Twitter!",
+    "developers": "Разработчики",
+    "apiDocumentation": "Документация API",
+    "employee": "Сотрудник",
+    "dashboard": "Панель управления",
+    "submissions": "Подачи",
+    "create": "Создать",
+    "myPlan": "Мой план",
+    "settings": "Настройки",
+    "giveaway": "Раздача",
+    "signIn": "Войти",
+    "signOut": "Выйти"
+  },
+  "featured": {
+    "shareBadge": "Поделиться значком",
+    "copyImagePNG": "Копировать изображение PNG (Лучший способ поделиться)",
+    "copyImageSVG": "Копировать изображение SVG (Продвинутый способ поделиться)",
+    "copyMarkdown": "Скопировать Markdown",
+    "removeBadge": "Удалить значок"
+  },
+  "viewAll": {
+    "shareBadge": "Поделиться значком",
+    "copyImagePNG": "Копировать изображение PNG (Лучший способ поделиться)",
+    "copyImageSVG": "Копировать изображение SVG (Продвинутый способ поделиться)",
+    "copyMarkdown": "Скопировать Markdown",
+    "removeBadge": "Удалить значок"
+  },
+  "about": {
+    "aboutUs": "О нас",
+    "aboutUsSubtitle": "С 2014 года тысячи людей каждый месяц используют For the Badge для оформления проектов, общения с другими или просто для выражения эмоций. Все началось из-за одержимости двумя словами: «build passing». И всё закончилось этим: значки ради значков.",
+    "monthlyVisitors": "Ежемесячные посетители",
+    "badgesServedEveryMonth": "Значки, выданные каждый месяц",
+    "countries": "Страны",
+    "ourTeam": "Наша команда",
+    "ourTeamSubtitle": "Мы - небольшая, но могучая команда разработчиков, которым нравится создавать.",
+    "ourContributors": "Наши участники",
+    "ourContributorsSubtitle": "Этот проект существует благодаря всем людям, которые внесли вклад в него на протяжении многих лет."
+  },
+  "contact": {
+    "contactUs": "Свяжитесь с нами",
+    "contactCallToAction": "Независимо от того, пишете ли вы твиты о наших значках или пишете статью, мы хотели бы услышать от вас!",
+    "pressKit": "Пресс-кит",
+    "assetsCallToAction": "У нас есть пресс-кит с материалами для вас!",
+    "pressInquiries": "Пресс-запросы",
+    "pressInquiriesDescription": "Для вопросов, связанных с СМИ и прессой.",
+    "support": "Поддержка",
+    "supportDescription": "Для поддержки и помощи в наших услугах.",
+    "privacyConcerns": "Вопросы конфиденциальности",
+    "privacyConcernsDescription": "Для вопросов и проблем, связанных с конфиденциальностью.",
+    "generalQueries": "Общие вопросы",
+    "generalQueriesDescription": "Для общих запросов и вопросов.",
+    "downloadPressKit": "Скачать пресс-кит"
+  },
+  "myGeneratedBadges": {
+    "myGeneratedBadges": "Мои созданные значки",
+    "badgePreview": "Предпросмотр значка",
+    "created": "Создан",
+    "actions": "Действия",
+    "submitForApproval": "Отправить на утверждение"
+  },
+  "badgeGenerator": {
+    "twoPanels": "Два панели",
+    "threePanels": "Три панели",
+    "primary": "ОСНОВНОЙ",
+    "secondary": "ВТОРОСТЕПЕННЫЙ",
+    "tertiary": "ТРЕТИЧНЫЙ",
+    "backgroundColor": "Цвет фона",
+    "textColor": "Цвет текста",
+    "submitForApproval": "Отправить на утверждение",
+    "downloadBadge": "Скачать значок",
+    "copyMarkdown": "Скопировать Markdown",
+    "share": "Поделиться",
+    "sampleText": "Пример текста",
+    "generateRandomBadge": "Сгенерировать случайный значок"
+  },
+  "myPlanModal": {
+    "upgradeYourPlan": "Улучшите ваш план",
+    "currentPlan": "Текущий план",
+    "proPlan": {
+      "proPlanTitle": "Pro",
+      "purchasePro": "Приобрести Pro",
+      "proPlanPrice": "USD $10/месяц",
+      "planFeatureOne": "Создание стильных и анимированных значков",
+      "planFeatureTwo": "Значки, созданные с помощью ИИ и инструменты",
+      "planFeatureThree": "Значки, размещенные в облаке"
+    },
+    "manageMySubscription": "Управление моей подпиской",
+    "billingIssue": "Мне нужна помощь с вопросом выставления счетов"
+  },
+  "giveawayModal": {
+    "giveaway": "Началась раздача!",
+    "instructions": "В честь нашего нового релиза мы проводим нашу первую раздачу! Мы хотим выразить признательность за потрясающую поддержку, которую наши пользователи оказывали нам с 2014 года, и за новые вещи, которые еще предстоят. Перейдите по ссылке ниже, чтобы принять участие в розыгрыше! Мы разыгрываем 5 толстовок с вышивкой For the Badge и подарочную карту Amazon на $100. Раздача заканчивается 22.02.2024. Победители будут объявлены 25.02.2024.",
+    "linkToGiveaway": "Нажмите здесь, чтобы принять участие в розыгрыше",
+    "yourCode": "Используйте этот код для получения 100 дополнительных записей",
+    "signInToSeeCode": "Войдите/Зарегистрируйтесь, чтобы увидеть код"
+  },
+  "settingsModal": {
+    "settings": "Настройки",
+    "theme": "Тема",
+    "toggleTheme": "Переключить тему",
+    "exportData": "Экспорт данных",
+    "export": "Экспорт",
+    "deleteAccount": "Удалить аккаунт",
+    "supportMessage": "Если у вас есть вопросы, проблемы или если вы хотите запросить удаление вашего аккаунта, пожалуйста, свяжитесь с нами по адресу support@forthebadge.com!",
+    "delete": "Удалить",
+    "language": "Язык"
+  },
+  "dashboard": {
+    "overview": "Обзор",
+    "realtimeTraffic": "Трафик в реальном времени",
+    "googleAnalyticsSeven": "Google Analytics (7 дней)",
+    "googleAnalyticsThirty": "Google Analytics (30 дней)"
+  },
+  "footer": {
+    "asSeenOn": "Как видно на",
+    "privacyPolicy": "КОНФИДЕНЦИАЛЬНОСТЬ",
+    "termsOfService": "УСЛОВИЯ ОБСЛУЖИВАНИЯ"
+  },
+  "toast": {
+    "imageCopied": "Значок скопирован",
+    "markdownCopied": "Markdown скопирован",
+    "shareLinkCopied": "Ссылка для обмена скопирована",
+    "badgeSubmittedForApproval": "Значок отправлен на утверждение!",
+    "errorSubmittingBadge": "Ошибка при отправке значка",
+    "authError": "Ошибка аутентификации",
+    "loginRequired": "Для выполнения этого действия необходимо войти в систему.",
+    "badgeDeleted": "Значок успешно удален",
+    "deleteFailed": "Не удалось удалить значок"
+  }
+}

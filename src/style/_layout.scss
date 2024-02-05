@@ -1,9 +1,0 @@
-.wrapper {
-  @include size(100% auto);
-}
-
-.container {
-  @include clearfix;
-  max-width: 800px;
-  margin: 0 auto;
-}

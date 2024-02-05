@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "credit": "Official Site",
+    "contribute": "Contribute"
+  },
+  "footer": {
+    "license": "LICENSE"
+  },
+  "badgeGenerator": {
+    "twoPanels": "Two Panels",
+    "threePanels": "Three Panels",
+    "primary": "PRIMARY",
+    "secondary": "SECONDARY",
+    "tertiary": "TERTIARY",
+    "backgroundColor": "Background Color",
+    "textColor": "Text Color",
+    "downloadBadge": "Download Badge",
+    "copyMarkdown": "Copy Markdown",
+    "share": "Share",
+    "sampleText": "Sample Text",
+    "openSourceInfo": "Enjoy our open-source, self-hosted classic badge generator - free forever! For advanced features, visit our official site."
+  },
+  "toast": {
+    "imageCopied": "Badge Copied",
+    "markdownCopied": "Markdown Copied",
+    "shareLinkCopied": "Share link copied"
+  }
+}

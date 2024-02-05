@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "credit": "आधिकारिक साइट",
+    "contribute": "सहयोग करें"
+  },
+  "footer": {
+    "license": "लाइसेंस"
+  },
+  "badgeGenerator": {
+    "twoPanels": "दो पैनल",
+    "threePanels": "तीन पैनल",
+    "primary": "प्राथमिक",
+    "secondary": "द्वितीयक",
+    "tertiary": "तृतीयक",
+    "backgroundColor": "पृष्ठभूमि रंग",
+    "textColor": "टेक्स्ट रंग",
+    "downloadBadge": "बैज डाउनलोड करें",
+    "copyMarkdown": "मार्कडाउन कॉपी करें",
+    "share": "शेयर करें",
+    "sampleText": "नमूना टेक्स्ट",
+    "openSourceInfo": "हमारा ओपन-सोर्स, स्व-होस्टेड क्लासिक बैज जेनरेटर का आनंद लें - हमेशा के लिए मुफ्त! उन्नत विशेषताओं के लिए, हमारी आधिकारिक साइट पर जाएं।"
+  },
+  "toast": {
+    "imageCopied": "बैज कॉपी हो गया",
+    "markdownCopied": "मार्कडाउन कॉपी हो गया",
+    "shareLinkCopied": "शेयर लिंक कॉपी हो गया"
+  }
+}

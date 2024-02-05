@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "credit": "Offizielle Website",
+    "contribute": "Beitragen"
+  },
+  "footer": {
+    "license": "LIZENZ"
+  },
+  "badgeGenerator": {
+    "twoPanels": "Zwei Panels",
+    "threePanels": "Drei Panels",
+    "primary": "PRIMÄR",
+    "secondary": "SEKUNDÄR",
+    "tertiary": "TERTIÄR",
+    "backgroundColor": "Hintergrundfarbe",
+    "textColor": "Textfarbe",
+    "downloadBadge": "Badge herunterladen",
+    "copyMarkdown": "Markdown kopieren",
+    "share": "Teilen",
+    "sampleText": "Beispieltext",
+    "openSourceInfo": "Genießen Sie unseren Open-Source, selbst gehosteten klassischen Badge-Generator - immer kostenlos! Für erweiterte Funktionen besuchen Sie unsere offizielle Website."
+  },
+  "toast": {
+    "imageCopied": "Badge kopiert",
+    "markdownCopied": "Markdown kopiert",
+    "shareLinkCopied": "Freigabelink kopiert"
+  }
+}

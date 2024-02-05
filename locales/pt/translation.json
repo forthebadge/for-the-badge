@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "credit": "Официальный сайт",
+    "contribute": "Внести вклад"
+  },
+  "footer": {
+    "license": "ЛИЦЕНЗИЯ"
+  },
+  "badgeGenerator": {
+    "twoPanels": "Два панели",
+    "threePanels": "Три панели",
+    "primary": "ПРИМАРНЫЙ",
+    "secondary": "СЕКУНДАРНЫЙ",
+    "tertiary": "ТРЕТИАРНЫЙ",
+    "backgroundColor": "Цвет фона",
+    "textColor": "Цвет текста",
+    "downloadBadge": "Скачать значок",
+    "copyMarkdown": "Копировать Markdown",
+    "share": "Поделиться",
+    "sampleText": "Пример текста",
+    "openSourceInfo": "Наслаждайтесь нашим открытым и самохостедным классическим генератором значков - бесплатно навсегда! Для расширенных возможностей посетите наш официальный сайт."
+  },
+  "toast": {
+    "imageCopied": "Значок скопирован",
+    "markdownCopied": "Markdown скопирован",
+    "shareLinkCopied": "Ссылка на обмен скопирована"
+  }
+}
