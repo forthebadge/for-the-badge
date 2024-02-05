@@ -1,10 +1,8 @@
-<div style="text-align: center; display: block;">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://forthebadge.com/images/logo.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://forthebadge.com/images/logo_black.svg">
-    <img alt="forthebadge logo" src="https://forthebadge.com/images/logo.svg" style="max-width: 100%; height: auto;">
-  </picture>
-</div>
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://forthebadge.com/images/logo.svg">
+   <source media="(prefers-color-scheme: light)" srcset="https://forthebadge.com/images/logo_black.svg">
+   <img alt="forthebadge logo" src="https://forthebadge.com/images/logo.svg" style="max-width: 100%; height: auto;">
+</picture>
 
 ## For standard users
 
