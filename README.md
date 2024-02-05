@@ -12,6 +12,8 @@ To explore our unique collection and generate badges, simply visit [our official
 
 We have open-sourced our badge generator so you can self-host and run our classic generator! It all started with our obsession for badges, and it ends with badges for badges' sake.
 
+We have posted a tutorial on our youtube channel that walks through how to setup this project, [you can view it here](https://www.youtube.com/watch?v=fIKNEauzU-g)
+
 ### Running Locally
 
 To run For the Badge on your local computer, follow these simple steps:
