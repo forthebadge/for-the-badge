@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "credit": "官方网站",
+    "contribute": "贡献"
+  },
+  "footer": {
+    "license": "许可证"
+  },
+  "badgeGenerator": {
+    "twoPanels": "两个面板",
+    "threePanels": "三个面板",
+    "primary": "主要",
+    "secondary": "次要",
+    "tertiary": "第三",
+    "backgroundColor": "背景颜色",
+    "textColor": "文本颜色",
+    "downloadBadge": "下载徽章",
+    "copyMarkdown": "复制Markdown",
+    "share": "分享",
+    "sampleText": "示例文本",
+    "openSourceInfo": "享受我们的开源、自托管的经典徽章生成器 - 永久免费！要使用高级功能，请访问我们的官方网站。"
+  },
+  "toast": {
+    "imageCopied": "徽章已复制",
+    "markdownCopied": "Markdown已复制",
+    "shareLinkCopied": "分享链接已复制"
+  }
+}

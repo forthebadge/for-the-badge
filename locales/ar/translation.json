@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "credit": "الموقع الرسمي",
+    "contribute": "المساهمة"
+  },
+  "footer": {
+    "license": "الترخيص"
+  },
+  "badgeGenerator": {
+    "twoPanels": "لوحتان",
+    "threePanels": "ثلاث لوحات",
+    "primary": "أساسي",
+    "secondary": "ثانوي",
+    "tertiary": "ثالثي",
+    "backgroundColor": "لون الخلفية",
+    "textColor": "لون النص",
+    "downloadBadge": "تحميل الشارة",
+    "copyMarkdown": "نسخ العلامة التوضيحية",
+    "share": "مشاركة",
+    "sampleText": "نص عينة",
+    "openSourceInfo": "تمتع بمولد الشارة الكلاسيكي مفتوح المصدر والمستضاف ذاتيًا - مجانًا دائمًا! لمزيد من الميزات المتقدمة، قم بزيارة موقعنا الرسمي."
+  },
+  "toast": {
+    "imageCopied": "تم نسخ الشارة",
+    "markdownCopied": "تم نسخ العلامة التوضيحية",
+    "shareLinkCopied": "تم نسخ رابط المشاركة"
+  }
+}

@@ -1,9 +1,3 @@
-dist
 node_modules
-.sass-cache
+dist
 .DS_Store
-*.swo
-*.swp
-*.map
-*.log
-*.sublime*

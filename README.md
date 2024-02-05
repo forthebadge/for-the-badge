@@ -1,28 +1,61 @@
-﻿# For the Badge
+![forthebadge](https://forthebadge.com/images/logo.svg#gh-dark-mode-only)
+![forthebadge](https://forthebadge.com/images/logo_black.svg#gh-light-mode-only)
 
-[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
+## For standard users
 
-We don't develop for the money, power, fame, or codebabes. We do it **For the Badge.** It all started because of an obsession with two words: [![Build Status](https://travis-ci.org/BraveUX/for-the-badge.svg)](https://travis-ci.org/BraveUX/for-the-badge). It all ended with this: _badges, for badges’ sake_.
+To explore our unique collection and generate badges, simply visit [our official website](https://forthebadge.com). Our site is designed to enrich your experience with an array of features and services, all dedicated to badges.
 
-## Badge Usage
+## For advanced users
 
-1. Check out all the badges [here](https://forthebadge.com)!
-2. Copy the image URL or markdown.
-3. Swag out your Github readme.
+We have open-sourced our badge generator so you can self-host and run our classic generator! It all started with our obsession for badges, and it ends with badges for badges' sake.
 
-## Contributing
-Interested in having a badge submitted to the general site? Submit a pull request of the badge you'd like to see added and provide a **Share Badge** link generated from our [For The Badge Generator](http://forthebadge.com/generator). 
+### Running Locally
 
-Not all badges will be accepted but if there is enough community excitement behind a badge or if we just really like it, we'll add it to the growing list of badges!
+To run the For the Badge Generator on your local computer, follow these simple steps:
 
-<br />
-<br />
+1. Clone the repository:
 
+   ```
+   git clone https://github.com/forthebadge/for-the-badge.git
+   cd for-the-badge
+   ```
 
-# For the Badge Generator
-Interested in learning more or seeing the code behind the [Badge Generator](http://forthebadge.com/generator)? Check out the repo [here](https://github.com/ekfuhrmann/badge-generator).
-## Important
-The **Copy Markdown** output is in Base64 so as to not need the badge to be hosted anywhere. This unfortunately means that it will not render in many markdown programs due to security issues, [though there have been numerous](https://github.com/github/markup/issues/270) [submissions to account for this](https://github.com/gjtorikian/html-pipeline/pull/227). Nonetheless, should you wish to include one of these badges in your own markdown where it fails to support Base64, I suggest you download the badge, and then upload it to the project you wish for it to render in. It's a minor inconvenience, but it sure is better than nothing.
+2. Install the project dependencies using npm:
 
-Not good enough? Well you could also [submit a pull request](#contributing) for the badge to be hosted on our [For The Badge](https://forthebadge.com/) site.
+   ```
+   npm install
+   ```
+
+3. Start the local server using Vite:
+
+   ```
+   npx vite
+   ```
+
+4. Your badge generator will be available at `http://localhost:5173`. You can access it through your web browser.
+
+5. To build the project for production:
+   ```
+   npx vite build
+   ```
+
+### Using Docker
+
+You can also run the For the Badge Badge Generator using Docker. Here are the steps:
+
+1. Build and run the Docker image:
+
+   ```
+   docker build -t for-the-badge .
+   docker run -p 8080:8080 for-the-badge
+   ```
+
+2. Your badge generator will be available at `http://localhost:8080`.
+
+### Want to Contribute?
+
+Contributions are welcome and keep this project going! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request. Your contributions may be featured on our official site!
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [COPYING](https://github.com/forthebadge/for-the-badge/blob/master/COPYING) file for details.

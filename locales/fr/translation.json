@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "credit": "Site Officiel",
+    "contribute": "Contribuer"
+  },
+  "footer": {
+    "license": "LICENCE"
+  },
+  "badgeGenerator": {
+    "twoPanels": "Deux Panneaux",
+    "threePanels": "Trois Panneaux",
+    "primary": "PRINCIPAL",
+    "secondary": "SECONDAIRE",
+    "tertiary": "TERTIAIRE",
+    "backgroundColor": "Couleur de Fond",
+    "textColor": "Couleur du Texte",
+    "downloadBadge": "Télécharger l'Insigne",
+    "copyMarkdown": "Copier le Markdown",
+    "share": "Partager",
+    "sampleText": "Texte Exemple",
+    "openSourceInfo": "Profitez de notre générateur d'insignes classique en open source, auto-hébergé - gratuit pour toujours ! Pour des fonctionnalités avancées, visitez notre site officiel."
+  },
+  "toast": {
+    "imageCopied": "Insigne Copié",
+    "markdownCopied": "Markdown Copié",
+    "shareLinkCopied": "Lien de Partage Copié"
+  }
+}
