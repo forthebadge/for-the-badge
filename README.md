@@ -44,16 +44,39 @@ To run For the Badge on your local computer, follow these simple steps:
 
 ### Using Docker
 
-You can also run For the Badge using Docker. Here are the steps:
+You can run For the Badge using Docker in two different ways. Choose the method that best suits your needs:
 
-1. Build and run the Docker image:
+#### Method 1: Pull and Run the Docker Image
+
+Use this method if you want to quickly run the latest stable version of For the Badge without building it yourself.
+
+1. Pull the Docker image from our repository:
+
+   ```
+   docker pull forthebadge/forthebadge
+   ```
+
+2. Run the Docker image:
+   ```
+   docker run -p 8080:8080 forthebadge/forthebadge
+   ```
+
+#### Method 2: Build and Run the Docker Image Yourself
+
+This method is ideal if you have downloaded the source code and wish to build the Docker image yourself, perhaps for development or testing purposes.
+
+1. Build the Docker image:
 
    ```
    docker build -t for-the-badge .
+   ```
+
+2. Run the Docker image:
+   ```
    docker run -p 8080:8080 for-the-badge
    ```
 
-2. The badge generator will be available at `http://localhost:8080`. You can access it through your web browser.
+Regardless of the method chosen, The badge generator will be available at `http://localhost:8080`. You can access it through your web browser.
 
 ### Want to Contribute?
 
