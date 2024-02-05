@@ -14,7 +14,7 @@ We have open-sourced our badge generator so you can self-host and run our classi
 
 ### Running Locally
 
-To run the For the Badge Generator on your local computer, follow these simple steps:
+To run For the Badge on your local computer, follow these simple steps:
 
 1. Clone the repository:
 
@@ -35,7 +35,7 @@ To run the For the Badge Generator on your local computer, follow these simple s
    npx vite
    ```
 
-4. Your badge generator will be available at `http://localhost:5173`. You can access it through your web browser.
+4. The badge generator will be available at `http://localhost:5173`. You can access it through your web browser.
 
 5. To build the project for production:
    ```
@@ -44,7 +44,7 @@ To run the For the Badge Generator on your local computer, follow these simple s
 
 ### Using Docker
 
-You can also run the For the Badge Badge Generator using Docker. Here are the steps:
+You can also run For the Badge using Docker. Here are the steps:
 
 1. Build and run the Docker image:
 
@@ -53,7 +53,7 @@ You can also run the For the Badge Badge Generator using Docker. Here are the st
    docker run -p 8080:8080 for-the-badge
    ```
 
-2. Your badge generator will be available at `http://localhost:8080`.
+2. The badge generator will be available at `http://localhost:8080`. You can access it through your web browser.
 
 ### Want to Contribute?
 
