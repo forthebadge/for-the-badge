@@ -4,6 +4,10 @@
    <img alt="forthebadge logo" src="https://forthebadge.com/images/logo.svg" style="max-width: 100%; height: auto;">
 </picture>
 
+## Looking to submit a badge to be hosted on our site?
+
+To submit a badge, simply visit [our official generator](https://forthebadge.com/#/generator) create the badge and click "Submit to Approval". Once approved, it joins our collection for all to use. We allow both signed-in and non-signed-in users to submit badges for approval. Signed-in users have the added benefit of tracking the approval status of their submissions.
+
 ## For standard users
 
 To explore our unique collection and generate badges, simply visit [our official website](https://forthebadge.com). Our site is designed to enrich your experience with an array of features and services, all dedicated to badges.
