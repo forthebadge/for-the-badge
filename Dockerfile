@@ -12,8 +12,6 @@ RUN npx vite build
 
 FROM nginx:alpine
 
-COPY locales/ /usr/share/nginx/html/locales/
-
 COPY --from=build /app/dist /usr/share/nginx/html
 
 EXPOSE 8080
